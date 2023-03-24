@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionTwo{
+    margin-top: 120px;
+}
+
+.sectionTwo-container{
+    display: flex;
+    padding-left: 120px;
+    
+}
+.img-sec2{
+    max-width:700px ;
+    height: 700px;
+}
+
+.sentence5{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.sentence-container{
+    font-family: "corporate_sbold", Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.about-us{
+    font-size: 21px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.sentence1{
+    letter-spacing: 0.01em;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 40px;
+}
+.sentence2,.sentence3,.sentence4{
+    font-size: 18px;
+    line-height: 35px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.sentence4{
+    margin-bottom: 30px;
+}
+
+.sentence5 i{
+    font-size: 25px;
+    width: 40px;
+    color: #9f1635;
+    text-decoration: none;
+}
+
+.sentence5{
+    text-decoration: none;
+    color: black;
+}
+
+
+.sentence5:hover #i1{
+    display: none;
+}
+
+.sentence5:hover #i2{
+    display: flex;
+}
+
+
+.sentence5-one{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.sentence5 #i2{
+display: none;
+}

@@ -1,0 +1,21 @@
+.sectionFour-lifeAt{
+    width: 100%;
+    overflow: hidden;
+    margin:100px 0px ;
+}
+
+.carousel-indicators > button{
+    background-color: brown !important;
+}
+
+.imgContainerSec4-lifeAt {
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    padding: 0px 10px;
+}
+
+.imgContainerSec4-lifeAt > img{
+    width: 100%;
+    height: 100%;
+}

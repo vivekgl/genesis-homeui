@@ -1,0 +1,48 @@
+.sectionFour-MainContainer-commercial{
+    padding-left: 120px;
+    background-image: url('bengaluruRoadView.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    
+}
+
+
+.sec4-details-commercial{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+
+.sec4-details-commercial > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.sec4-details-commercial > div > h3{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+
+.sec4-details-commercial > div > div{
+    width: 200px;
+    height: 1px;
+    background-color: white;
+}
+
+
+.sec4-details-commercial >  h1{
+    font-size: 70px;
+    line-height: 75px;
+}

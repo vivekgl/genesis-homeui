@@ -1,0 +1,121 @@
+.sectionOneContainer1-circle{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: sans-serif;
+    background: linear-gradient(90deg, rgba(100, 65, 43, 0.7), rgba(100, 65, 43, 0.7)), url("https://centurycircle.loyalie.com/wp-content/uploads/2021/11/Banner-IMG3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.imgDetailsSec1-circle{
+    position: absolute;
+    top: 220px;
+    right: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgDetailsSec1-circle i{
+    font-size: 120px;
+    color:rgba(230,193,104,1);
+    margin-bottom: 30px;
+
+    
+    
+}
+
+.imgDetailsSec1-circle h1{
+    font-size: 40px;
+    
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgba(230,193,104,1)), color-stop(0.15, gold), color-stop(0.3, rgba(230,193,104,1)), color-stop(0.45,gold), color-stop(0.6, rgba(230,193,104,1)),color-stop(0.75, gold), color-stop(0.9, #ff2), color-stop(1, rgba(230,193,104,1)) );
+  background-image: gradient( linear, left top, right top, color-stop(0, rgba(230,193,104,1)), color-stop(0.15, gold), color-stop(0.3, rgba(230,193,104,1)), color-stop(0.45,gold), color-stop(0.6, rgba(230,193,104,1)),color-stop(0.75, gold), color-stop(0.9, #ff2), color-stop(1, rgba(230,193,104,1)) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+}
+
+.imgDetailsSec1-circle h4{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 15px;
+    text-align: center;
+    color:rgba(230,193,104,1);
+    margin-bottom: 10px;
+    padding-right: 0;
+}
+
+.imgDetailsSec1-circle h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(230,193,104,1);
+}
+
+.imgDetailsSec1-circle button{
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(100, 65, 43, 0.7);
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+
+/*             container---2                          */
+
+.sectionOneContainer2-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 150px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    color: rgba(53, 22, 12, 0.7);
+    background-color: rgb(247, 242, 215);
+
+}
+
+.sectionOneContainer2-circle h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+
+.sectionOneContainer2-circle > h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.sectionOneContainer2-circle  > div{
+    height: 1.5px;
+    width: 170px;
+    background-color:rgba(46, 19, 2, 0.7) ; 
+    margin-bottom: 18px;  
+}
+
+
+.sectionOneContainer2-circle > p{
+    margin-bottom: 13px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.sectionOneContainer2-circle .p2-sec1-circle{
+    margin-bottom: 45px;
+}
+
+

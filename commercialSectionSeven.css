@@ -1,0 +1,65 @@
+.sectionSeven-MainContainer-Commercial{
+    display: flex;
+    padding-top: 80px;
+}
+
+
+.tableContainer-sec7-commercial{
+    padding-right: 0;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.tableT2{
+    margin-left: 120px;
+    width: 570px;
+}
+
+.tr1, .tr1 > th{
+    color: brown;
+    font-size: 26px;
+    padding-left: 0;
+    border-bottom: 1px grey;
+    /* box-sizing: border-box; */
+    
+}
+
+.tableT2, .tr2 > td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+
+.tr2 > td{
+    /* font-family: sans-serif; */
+    font-size: 25px;
+    /* font-weight: 500; */
+    padding: 20px 20px;
+}
+
+.tr1 > th{
+    text-align: left;
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+.sectionSeven-MainContainer-Commercial > div{
+    padding-right:  120px ;
+    padding-left: 0px;
+    /* overflow: hidden; */
+    height: 560px;
+    width: 100%;
+}
+
+.sectionSeven-MainContainer-Commercial > div > img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,73 @@
+.sec5-mainContainer-commercial{
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-image: url('https://commercialportfolio.centuryrealestate.in/assets/images/commercial-projects/bengluru-at-top-cd.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+
+.sec5ContainerCommercialDetails{
+    padding: 0px 100px;
+    display: flex;
+}
+
+.sec5ContainerCommercialDetails > img{
+    width: 100%;
+}
+
+.sec5ContainerCommercialDetails .sec5ImgDetails-commercial{
+    width: 100%;
+    padding: 40px 0px;
+    padding-left: 30px;
+
+}
+
+
+.sec5ImgDetails-commercial > div{
+    width: 100px;
+    height: 1.5px;
+    background-color: brown;
+    margin-bottom: 30px;
+}
+
+.sec5ImgDetails-commercial > h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: brown;
+    margin-bottom: 30px;
+}
+
+.sec5ImgDetails-commercial > table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.sec5ImgDetails-commercial > table, th, td {
+    border: 3.5px solid white;
+    border-collapse: collapse;
+    padding: 8px 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.th1{
+    text-align: left;
+    background: #e1e1e1;
+
+}
+
+.td1{
+    background: #e1e1e1;
+}
+
+.td{
+    color: white;
+    font-size: 15px;
+}
+
+.sec5ImgDetails-commercial > img{
+    width: 100%;
+    max-height: 400px;
+}

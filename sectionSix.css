@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionSix-container{
+    margin-top:120px;
+    margin-bottom:90px; 
+    margin-left: 250px;
+    margin-right: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slogan-name{
+    font-family: "corporate_sbold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+
+.slogan{
+    font-family: "corporate_sbold", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic !important;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+
+.details-two{
+    font-size: 19px;
+    letter-spacing: 0.8px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.key-management-container{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 385px;
+}
+
+.key-management-container i{
+    color: brown;
+    font-size: 35px;
+    margin-right: 28px;
+}
+
+.key-management-container #i6{
+    
+    display: none;
+}
+
+.key-management{
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.key-management-container:hover #i5{
+    display: none;
+}
+
+.key-management-container:hover #i6{
+    display: flex;
+    padding-right: 4.4px;
+}
+
+
+
+
+
+
+
+
+/* before bottom section */
+
+.responsibilities-container{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("responsibilities.jpg");
+    background-size: cover;
+    height: 540px;
+    align-items: center;
+    padding: 0px 120px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+
+.responsibilities-container a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+.responsibilities-container a i{
+    font-size: 35px;
+    color: brown;
+    margin-right: 25px;
+}
+
+.responsibilities-container a #i8{
+    display: none;
+}
+
+.responsibilities-container a:hover #i7{
+    display: none;
+}
+
+.responsibilities-container a:hover #i8{
+    display: flex;
+}

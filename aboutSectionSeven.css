@@ -1,0 +1,60 @@
+.sec7-bottom-container-About{
+    padding: 70px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec7-bottom-container-About > div{
+    width: 520px;
+    display: flex;
+}
+
+.sec7-bottom-container-About > div .a1-About, .a2-About{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+
+    /* color: brown; */
+}
+
+.sec7-bottom-container-About > div a h1{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 5px;
+
+}
+
+.sec7-bottom-container-About > div .a1-About > i{
+    font-size: 35px;
+    color: brown;
+    margin-right: 30px;
+}
+
+#i2-sec7-about{
+    display: none;
+}
+
+.a1-About:hover #i1-sec7-about{
+    display: none;
+}
+
+.a1-About:hover #i2-sec7-about{
+    display: flex;
+    margin-right: 34.4px;
+}
+
+.sec7-bottom-container-About > div .a2-About > i{
+    font-size: 35px;
+    color: brown;
+    margin-right: 30px;
+}
+
+.a2-About:hover #i1-sec7-about{
+    display: none;
+}
+
+.a2-About:hover #i2-sec7-about{
+    display: flex;
+    margin-right: 34.4px;
+}

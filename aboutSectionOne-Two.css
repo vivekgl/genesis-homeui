@@ -1,0 +1,32 @@
+.aboutImg1{
+    width: 100%;
+    max-height: 100vh;
+    /* object-fit: cover; */
+    object-position: center;
+}
+
+
+
+
+
+/* Section Two  */
+.sectionTwo-About{
+    margin-top: 100px;
+}
+
+.sectionTwoAbout-SentenceBlock{
+    padding:0px 90px;
+    text-align: center;
+}
+
+.sectionTwoAbout-SentenceBlock h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 65px;
+}
+
+.sectionTwoAbout-SentenceBlock p{
+    margin: 90px 0;
+    font-size: 20px;
+    line-height: 35px;
+}

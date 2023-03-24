@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionSevenContainer-lifeAt{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 420px;
+    box-sizing: border-box;
+    padding: 0px 100px;
+}
+
+
+
+.sec7-container1-lifeAt, .sec7-container2-lifeAt, .sec7-container3-lifeAt{
+    width: 420px;
+    border:1px solid grey ;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 15px;
+    
+    
+}
+.sec7-container1-lifeAt{
+    
+    border-top: 0px;
+    border-right: none;
+}
+
+
+.logo-container22{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.logo-container22 .genesys-three2{
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.logo-container22 .new-innovation22{
+    font-size: 5px;
+    letter-spacing: 0px;
+    line-height: 6px;
+}
+
+.sec7-container1One-lifeAt{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.sentence1ContainerSec7LifeAt > a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.sentence1ContainerSec7LifeAt > a:hover{
+    color: rgb(11, 11, 178);
+    text-decoration: underline;
+}
+
+.sentence1ContainerSec7LifeAt > p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+
+.sec7-container1-lifeAt > p{
+    margin-top: 10px;
+}
+
+
+.sec7-container1-lifeAt > p > a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sec7-container1-lifeAt > p >a:hover{
+    color: rgb(11, 11, 178);
+    text-decoration: underline;
+}
+
+.sec7-container1One-lifeAt ~ p:nth-child(3) {
+    font-size: 14px;
+    margin: 0;
+    
+}
+
+.sec7-container1One-lifeAt ~ p:nth-child(4) {
+    font-size: 14px;
+}
+
+.sec7-container1-lifeAt-anchor1{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.sec7-container1-lifeAt-anchor1 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec7-container1-lifeAt > a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0;
+}
+
+.sec7-container1-lifeAt > a > h3{
+    font-size: 15px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.sec7-container1-lifeAt > a > p{
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: grey;
+    margin: 0;
+}
+
+.sec7-container1-lifeAt > #anchor1ContainerSec7LifeAt:hover{
+    text-decoration: underline;
+}
+
+
+.sec7-container1-lifeAt-paragraph1{
+    border-top: 1px solid rgb(234, 224, 224);
+    margin: 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(234, 224, 224);
+}
+
+
+
+.sec7-container1-lifeAt-paragraph1 .fa-thumbs-up{
+    transform: scaleX(-1);
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 8px;
+}
+
+.sec7-container1-lifeAt-paragraph1 .fa-lightbulb{
+    background-color: yellow;  
+    color: black;
+    border-radius: 50%;
+    padding: 5px 7px;
+    margin: 3px;
+    font-size: 8px;
+    margin-right: 10px;
+}
+
+
+.sec7-container1-lifeAt-paragraph1 > a{
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(163, 160, 160);
+    font-weight: 200;
+}
+
+.sec7-container1-lifeAt-paragraph1 > a:nth-child(1):hover{
+    text-decoration: none;
+}
+
+.sec7-container1-lifeAt-paragraph2{
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec7-container1-lifeAt-paragraph2 > a{
+    text-decoration: none;
+    color: black;
+}
+
+#anchor-fa-thumbs-up:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------*/
+
+.sec7-container2-lifeAt{
+    padding: 0;
+    border-radius: 20px;
+}
+
+.sec7-container2-lifeAt-sec1 {
+    border-bottom: 1px solid rgb(234, 224, 224);
+}
+
+.sec7-container2-lifeAt-sec1 > p{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    margin-bottom: 0;
+    
+}
+
+.sec7-container2-lifeAt-sec1 > p > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sec7-container2-lifeAt-sec1 > p > button{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+

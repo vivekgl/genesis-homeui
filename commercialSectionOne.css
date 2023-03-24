@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+
+
+.sectionOne-Container-commercial{
+    position: relative;
+    height: 650px;
+    overflow: hidden;display: flex;
+
+}
+
+.mainContainer-Commercial{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 100%;
+    /* overflow: hidden; */
+    position: absolute;
+    /* transform: translateY(-1300px); */
+}
+
+.container1-Commercial{
+    display: flex;
+    font-family: sans-serif;
+    width: 100%;
+    height: 650px;
+}
+
+
+.detailsLogoContainer-commercial{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* overflow: hidden; */
+    padding: 70px 80px;
+    margin-top: 50px;
+}
+
+
+.imgContainer-Commercial{
+    width: 100%;
+    height: 650px;
+    /* overflow: hidden; */
+    /* padding-left: 10px; */
+}
+
+.imgContainer-Commercial img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.detailsLogoContainer-commercial > h2{
+    font-weight: 500;
+    font-size: 18px;
+    /* letter-spacing: 1px; */
+    line-height: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.detailsLogoContainer-commercial .span{
+    width: 120px;
+    height: 2px;
+    background-color: brown;
+    margin-bottom: 15px;
+}
+
+
+
+.detailsLogoContainer-commercial > img{
+    max-width: 400px;
+}
+
+
+.btnContainer-commercial{
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+
+}
+
+.btnContainer-commercial > button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.btnContainer-commercial > button{
+    margin-right: 5px;
+} 
+
+.btnContainer-commercial .btn1-commercial{
+    border: 3px brown solid; 
+}
+
+.btnContainer-commercial .btn1-commercial .div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: brown;
+     margin-left: 5px; 
+}
+
+.btn2-commercial, .btn3-commercial{
+    background-color: white;
+}
+
+.btnContainer-commercial .btn2-commercial .div, .btn3-commercial .div {
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color: brown;
+    opacity: 0.5;
+    margin: 9px;
+
+}
+
+
+
+

@@ -1,0 +1,47 @@
+.sectionSix-MainContainer-commercial{
+    padding-left: 120px;
+    background-image: url('https://commercialportfolio.centuryrealestate.in/assets/images/commercial/9oNqoMETcCGRbkTGJBle8KkMdHKMYn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+
+.sec6-details-commercial{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+
+.sec6-details-commercial > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.sec6-details-commercial > div > h3{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+
+.sec6-details-commercial > div > div{
+    width: 200px;
+    height: 1px;
+    background-color: white;
+}
+
+
+.sec6-details-commercial >  h1{
+    font-size: 70px;
+    line-height: 75px;
+}

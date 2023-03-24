@@ -1,0 +1,99 @@
+.sectionFiveContainer-lifeAt{
+    padding: 0px 100px;
+    
+}
+
+.sectionFiveContainer-lifeAt > .span-sec5-lifeAt{
+    display: block;
+    height: 2px ;
+    width: 70px ;
+    background-color: brown;
+    margin-bottom: 30px;
+}
+
+.sectionFiveContainer-lifeAt > h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.sectionFiveContainer-lifeAt > h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.div-containerSec5-lifeAt{
+    display: flex;
+    padding: 0px 50px;
+    padding-top: 50px; 
+    height: 710px;   
+}
+
+.container1-sec5-lifeAt{
+    width: 42%;
+    
+}
+
+.container2-sec5-lifeAt > h3 , .container1-sec5-lifeAt > h3 {
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+
+.detailsContainer1-sec5-lifeAt{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid grey;
+
+}
+
+.detailsContainer1-sec5-lifeAt > p{
+    font-size: 22px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.detailsContainer1-sec5-lifeAt > p:nth-child(1){
+    font-weight: 600;
+}
+
+.container2-sec5-lifeAt{
+    padding-left: 100px;
+    width: 58%;
+}
+
+.detailsContainer2-sec5-lifeAt{
+    margin-left: 10px;
+    width: 100%;
+    
+}
+
+
+.detailsContainer2-sec5-lifeAt > a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 520px;
+    margin-bottom: 15px;
+}
+
+.detailsContainer2-sec5-lifeAt > a > div > h2  {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.detailsContainer2-sec5-lifeAt > a > div > p{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.detailsContainer2-sec5-lifeAt > a > i{
+    font-size: 30px;
+    color: brown;
+}
+
+
+

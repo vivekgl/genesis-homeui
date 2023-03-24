@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sectionOneContainer-lifeAt{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://careers.centuryrealestate.in/image/careerpageassets/career-top-banner.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+
+
+/*          Section  --- 2       */
+
+.sectionTwoContainer-lifeAt{
+    padding:0px 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.sectionTwoContainer-lifeAt div{
+    width: 100%;
+    height: 100%;
+}
+
+.sectionTwoContainer-lifeAt > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+.sectionTwoContainer-lifeAt > h1{
+    position: absolute;
+    left: 100px;
+    top: 0;
+    width: 380px;
+    font-size: 35px;
+
+}

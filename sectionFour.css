@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.video-sec1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+}
+
+.video1,.video2,.video3{
+    max-width: 390px;
+    max-height: 700px;
+}

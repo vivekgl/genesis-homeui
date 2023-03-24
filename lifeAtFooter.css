@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-sec1-container{
+    display: fixed;
+    justify-content: space-between;
+    height: 220px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 190px;
+}
+
+.logo-container2{
+    text-align: center;
+}
+
+.genesys-three{
+    font-family: 'Gajraj One', cursive;
+    font-size: 50px;
+    line-height: 45px;
+    color: blueviolet;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.new-innovation2{
+    line-height: 10px;
+    color:cadetblue;
+    font-size: 14px;
+    margin-top: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.address-container{
+    max-width: 560px;
+    text-align: center;
+}
+
+.address-container p{
+    font-size: 22.5px;
+}
+
+.address{
+    font-size: 20px;
+    color: grey;
+    line-height: 25px;
+}
+
+.icon-container a{
+    text-decoration: none;
+    color: brown;
+    margin-right: 20px;
+}
+
+.icon-container a i{
+    font-size: 28px;
+    
+}
+
+.certification{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 80px;
+}
+
+.last-sec-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(154, 29, 29);
+    color: white;
+    padding-left: 150px;
+    padding-right: 95px;
+}
+
+.anchor-container a{
+    text-decoration: none;
+    color: white;
+    margin-left: 22px;
+    font-size: 18px;
+}
+
+.footer-Sec2 p{
+    font-size: 18px;
+}

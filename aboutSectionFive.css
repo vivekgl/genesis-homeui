@@ -1,0 +1,157 @@
+.sectionFive-About{
+    margin-top: 150px;
+}
+
+.img1-sec5-About{
+    display: flex;
+    position: relative;
+}
+
+.img1-sec5-About > img{
+    width: 100%;
+    max-height: 100vh;
+}
+
+.img1-sec5-About h2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 23%;
+    left: 7%;
+    font-size: 22px;
+    letter-spacing: 8px;
+    font-weight: 700;
+    padding-right: 70px;
+    font-weight: 800;
+}
+
+.img1-sec5-About h1{
+    position: absolute;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "corporate_sbold", Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    top: 37.5%;
+    left: 7%;
+    font-size: 45px;
+    padding-right: 95px;
+    /* letter-spacing: 1px; */
+    font-weight: 600;
+    line-height: 57px;
+}
+
+.img2-img3-sec5-About{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: -3px;
+    
+}
+
+.img2-sec5-container-About{
+    width: 50%;
+    height:550px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.img2-sec5-container-About img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+.img3-sec5-container-About{
+    width: 50%;
+    height:550px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+
+.img3-sec5-container-About img{
+    width: 100%;
+    height: 100%;    
+    object-fit: cover;
+    margin: 0;
+}
+
+.img2-sec5-container-About h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    position: absolute;
+    color: white;
+    top: 38%;
+    left: 15%;
+    letter-spacing: 7px;
+}
+
+.icon-About-LearnMore{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 23px; */
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    left: 15%;
+    top: 55%;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.icon-About-LearnMore i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.icon-About-LearnMore h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+
+.img3-sec5-container-About h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    position: absolute;
+    color: white;
+    top: 38%;
+    left: 15%;
+    letter-spacing: 7px;
+}
+
+
+.icon-About-LearnMore #i2-About{
+    display: none;
+}
+
+.icon-About-LearnMore #i4-About{
+    display: none;
+}
+
+
+.img2-sec5-container-About a:hover #i2-About{
+    display: flex;
+    margin-right: 23.8px;
+    /* transition: all .4s; */
+}
+
+.img2-sec5-container-About a:hover #i1-About{
+    display: none;
+    
+}
+
+.img3-sec5-container-About a:hover #i4-About{
+    display: flex;
+    margin-right: 23.8px;
+    /* transition: all .4s; */
+}
+
+.img3-sec5-container-About a:hover #i3-About{
+    display: none;
+    
+}
