@@ -14,11 +14,14 @@ window.addEventListener('scroll', () => {
         logoEl2.style.fontSize = '13px'
         buttonEl.style.color = 'white';
         buttonEl.style.backgroundColor = 'brown';
-        // if(screen.width<750){
-        //     logoEl1.style.fontSize = '45px'
-        // }else{
-        //     logoEl1.style.fontSize = '60px';
-        // }
+
+        if(window.screen.width <= 420){
+            navContainerEl.style.height = '80px';
+            logoEl1.style.fontSize = '30px'
+            logoEl1.style.lineHeight = '28px'
+            logoEl2.style.fontSize = '10px'
+            logoEl2.style.lineHeight = '8px'
+        }
 
     } else {
         navContainerEl.style.height = '100px';
@@ -26,19 +29,21 @@ window.addEventListener('scroll', () => {
         navContainerEl.style.transition = 'height 1s';
         logoEl1.style.fontSize = '50px';
         logoEl1.style.lineHeight = '35px'
-        logoEl1.style.transition = 'font-size 1s';
+        logoEl1.style.transition = 'font-size 0.5s';
         logoEl2.style.fontSize = '11px';
-        logoEl2.style.transition = 'font-size 1s';
+        logoEl2.style.transition = 'font-size 0.5s';
         buttonEl.style.color = 'brown';
         buttonEl.style.backgroundColor = 'white';
-        // if(screen.width<750){
-        //     logoEl1.style.fontSize = '35px'
-        // }else{
-        //     logoEl1.style.fontSize = '50px';
-        // }
-    }
 
-    // console.log(html.scrollTop)
+        if(window.screen.width <=420){
+            navContainerEl.style.height = '65px';
+            logoEl1.style.fontSize = '25px';
+            logoEl1.style.lineHeight = '22px'
+            logoEl1.style.transition = 'font-size 0.5s';
+            logoEl2.style.fontSize = '9px';
+            logoEl2.style.transition = 'font-size 0.5s';
+        }
+    }
 })
 
 

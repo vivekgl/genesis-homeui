@@ -186,8 +186,6 @@ margin-top: 90px;
 }
 
 
-
-
 /* Next div element outside of Section-Three  */
 
 .video-wall{
@@ -399,4 +397,24 @@ margin-top: 90px;
         font-weight: 600;
     }
     
+}
+
+@media screen and (max-width:405px) {
+    .house-img1,.house-img2,.house-img3,
+    .house-img4,.house-img5,.house-img6,
+    .house-img7,.house-img8,.house-img9{
+        max-width: 100%;
+        min-width: 100%;
+        height: 246px;
+    }
+
+    .img-container-one a {
+        text-decoration: none;
+        position: relative;
+        flex: 100%;
+        margin-bottom: 20px;
+        overflow: hidden;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 }
