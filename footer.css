@@ -77,3 +77,92 @@
     color: white;
     margin-left: 20px;
 }
+
+
+
+@media screen and (max-width:420px){
+    .footer-sec1-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .genesys-three{
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .new-innovation2{
+        font-size: 10px;
+    }
+
+    .address-container{
+        max-width: 390px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .address{
+        font-size: 12px;
+        color: grey;
+        line-height: 20px;
+    }
+
+    .icon-container a i{
+        font-size: 20px;
+        margin-top: 20px;
+        
+    }
+    
+    .certification{
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        width: 45px;
+    }
+
+
+    .last-sec-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        font-size: 10px;
+        height: 120px;
+        align-items: center;
+        background-color: rgb(154, 29, 29);
+        color: white;
+        padding-left: 20px;
+        padding-right: 25px;
+    }
+
+    .anchor-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
+    .anchor-container a{
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        
+    }
+
+    .anchor-container .projectsTwo{
+        margin-left: 0px;
+    }
+
+    .footer-Sec2{
+        padding-bottom: 20px;
+    }
+}

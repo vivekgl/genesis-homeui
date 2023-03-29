@@ -87,3 +87,66 @@
 .sentence5 #i2{
 display: none;
 }
+
+@media screen and (max-width:420px) {
+    .sectionTwo-container{
+        display: flex;
+        flex-direction: column-reverse;
+    
+        padding-left:10px;
+        padding-right:10px ;
+        
+    }
+    .img-sec2{
+        width:100% ;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+
+    .sentence-container{
+        font-family: "corporate_sbold", Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: sans-serif;
+        margin-right: 0px;
+    
+    }
+
+    .about-us{
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    .sentence1{
+        
+        letter-spacing: 0.01em;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .sentence2,.sentence3,.sentence4{
+        font-size: 13px;
+        line-height: 22px;
+        color: grey;
+        margin-bottom: 10px;
+    }
+
+    .sentence5 i{
+        font-size: 20px;
+        width: 30px;
+        color: #9f1635;
+        text-decoration: none;
+    }
+    .sentence5-one{
+        font-weight: 500;
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+}

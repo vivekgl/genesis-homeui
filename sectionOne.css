@@ -15,66 +15,6 @@ html{
 }
 
 
-
-/* .loading:before{
-    content: '';
-    top: 43%;
-    left: 17%;
-    background-color: white;
-    z-index: 1;
-}
-
-.loading:after{
-    content: '';
-    position: fixed;
-    top: 43%;
-    left: 17%;
-    width: 943px;
-    height: 2px;
-    border-radius: 1px;
-    border:none;
-    background-color: white;
-    transform-origin: left;
-    transform: scaleX(0);
-    animation: animate 1s 2s ;
-    animation-delay: 3s;
-}
-
-@keyframes animate
-{
-    0%{
-        transform: translateX(0) scaleX(0);
-        transform-origin: left;
-        left: 17%;
-    }
-    25%{
-        transform: translateX(0) scaleX(1);
-        transform-origin: left;
-        left: 17%;
-    }
-    50%{
-        transform: translateX(0) scaleX(0);
-        transform-origin: left;
-        left: 17%;
-    }
-    75%{
-        transform: translateX(0) scaleX(1);
-        transform-origin: left;
-        left: 17%;
-    }
-    100%{
-        transform: translateX(0) scaleX(0);
-        transform-origin: left;
-        left: 17%;
-    }
-} */
-
-
-
-
-
-
-
 .onVideo-p1{
     display: flex;
     align-items: center;
@@ -128,4 +68,59 @@ html{
 #scroll-icon{
     font-size: 25px;
     margin-right: 10px;
+}
+
+
+@media screen and (max-width:420px){
+    .onVideo-p1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        text-align: center;
+        font-size: 17px;
+        color: white;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 22px;
+        width: 335px;
+    }
+
+
+    .onVideo-p2{
+        position: absolute;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        bottom: 10%;
+        left: 8%;
+        color: white;
+        line-height: 26px;
+        
+    }
+    
+    
+    
+    
+    .scroll-container{
+        position: absolute;
+        left: 8%;
+        color: white;
+        bottom: 7%;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    
+    #scroll-icon{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    .scroll-btn{
+        font-size: 10px;
+    }
 }

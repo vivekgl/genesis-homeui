@@ -11,6 +11,20 @@
 }
 
 .video1,.video2,.video3{
-    max-width: 390px;
+    max-width: 410px;
     max-height: 700px;
+}
+
+@media  screen and (max-width:420px) {
+    .video-sec1{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .video1,.video2,.video3{
+        width: 100%;
+        max-height: 210px;
+        margin-bottom: 15px;
+    }
 }
