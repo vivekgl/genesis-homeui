@@ -7,6 +7,7 @@ const buttonEl = document.getElementById('enquire');
 // navContainerEl.onwheel =
 window.addEventListener('scroll', () => {
     if (html.scrollTop >= 0 && html.scrollTop < 20) {
+
         navContainerEl.style.height = '120px';
         navContainerEl.style.backgroundColor = '#9f163580';
         logoEl1.style.fontSize = '60px'
@@ -15,10 +16,20 @@ window.addEventListener('scroll', () => {
         buttonEl.style.color = 'white';
         buttonEl.style.backgroundColor = 'brown';
 
+        if(window.screen.width <= 1280){
+            logoEl1.style.fontSize = '50px'
+            logoEl1.style.lineHeight = '40px'
+        }
+        if(window.screen.width<=1024){
+            logoEl1.style.fontSize = '38px'
+            logoEl1.style.lineHeight = '32px'
+            logoEl2.style.fontSize = '11px'
+            logoEl2.style.lineHeight = '13px'
+        }
         if(window.screen.width <= 420){
             navContainerEl.style.height = '80px';
             logoEl1.style.fontSize = '30px'
-            logoEl1.style.lineHeight = '28px'
+            logoEl1.style.lineHeight = '26px'
             logoEl2.style.fontSize = '10px'
             logoEl2.style.lineHeight = '8px'
         }
@@ -35,12 +46,21 @@ window.addEventListener('scroll', () => {
         buttonEl.style.color = 'brown';
         buttonEl.style.backgroundColor = 'white';
 
+        
+
+        if(window.screen.width<=1024){
+            logoEl1.style.fontSize = '36px'
+            logoEl1.style.lineHeight = '32px'
+            logoEl2.style.fontSize = '10px'
+            logoEl2.style.lineHeight = '11px'
+        }
         if(window.screen.width <=420){
             navContainerEl.style.height = '65px';
             logoEl1.style.fontSize = '25px';
-            logoEl1.style.lineHeight = '22px'
+            logoEl1.style.lineHeight = '20px'
             logoEl1.style.transition = 'font-size 0.5s';
             logoEl2.style.fontSize = '9px';
+            logoEl2.style.lineHeight = '7px'
             logoEl2.style.transition = 'font-size 0.5s';
         }
     }
@@ -50,7 +70,7 @@ window.addEventListener('scroll', () => {
 // < - - - - - - - - - - - - - - - >
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "400px";
+    document.getElementById("mySidenav").style.width = "100%";
 }
 
 function closeNav() {

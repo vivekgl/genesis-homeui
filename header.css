@@ -160,75 +160,71 @@ body{
 }
 
 
-@media screen and (max-width:420px){
+
+
+@media screen and (max-width:1280px) and (max-width:1350px) {
     .nav-container{
-        display: flex;
-        position: fixed;
-        top: 0;
-        left: 0;
-        justify-content: space-between;
-        width: 100%;
-        background: #9f163580;
-        align-items: center;
-        padding: 10px 100px;
-        box-sizing: border-box;
-        height: 80px;
-        
+        padding: 10px 60px;
     }
 
     .logo-container{
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 40px;
-        /* font-family: 'Rampart One'; */
-        color: white;
-        
+        font-size: 50px;
      }
      
      
      .logo-container .logo1{
-         
-         line-height: 45px;
-         cursor: pointer;
-         font-family: 'Gajraj One', cursive;
-         transition: font-size 1s;
+         line-height: 40px;
      }
-     
-     
-     .logo-container .logo2{
-         line-height: 16px;
-         cursor: pointer;
-         font-size: 12px;
-     }
+
+     .nav-sec2-container li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:7px;
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 13px;
+        
+    }
 }
 
 
-@media screen and (max-width: 750px){
-    .nav-sec2-container li{
-        display: none;
-    }
+@media only screen and (min-width:913px) and (max-width : 1024px){
+
     .nav-container{
         padding: 10px 40px;
     }
-    .logo-container .logo1{
-        font-size: 35px;
-        line-height: 20px;
-        transition: font-size 1s;
-    }
-    .logo-container .logo2{
-        font-size: 10px;
-    }
-}
 
+    .logo-container{
+        font-size: 38px !important;
+     }
+     
+     
+     .logo-container .logo1{
+         line-height: 30px !important;
+     }
 
-@media screen and (max-width : 1024px){
-    .nav-container{
+     .logo-container .logo2{
+        line-height: 13px;
+        cursor: pointer;
+        font-size: 11px;
+    }
+
+     .nav-sec2-container li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:7px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 13px;
+        
+    }
+
+    /* .nav-container{
         padding: 10px 50px;
-        /* overflow: hidden; */
         display: flex;
 
     }
@@ -258,8 +254,82 @@ body{
         padding:7px 28px;
         font-weight: 500;
         font-size: 14px;
+    } */
+}
+
+
+@media screen and (min-width:421px) and (max-width: 750px){
+    .nav-sec2-container li{
+        display: none;
+    }
+    .nav-container{
+        padding: 10px 40px;
+    }
+    .logo-container .logo1{
+        font-size: 35px;
+        line-height: 20px;
+        transition: font-size 1s;
+    }
+    .logo-container .logo2{
+        font-size: 10px;
     }
 }
+
+
+@media screen and (max-width:420px){
+
+    .nav-sec2-container li{
+        display: none;
+    }
+    .nav-container{
+        padding: 10px 40px;
+    }
+
+    .nav-container{
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        justify-content: space-between;
+        width: 100%;
+        background: #9f163580;
+        align-items: center;
+        padding: 10px 50px;
+        box-sizing: border-box;
+        height: 80px;
+        
+    }
+
+    .logo-container{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 28px;
+        /* font-family: 'Rampart One'; */
+        color: white;
+        
+     }
+     
+     
+     .logo-container .logo1{
+         
+         line-height: 18px;
+         cursor: pointer;
+         font-family: 'Gajraj One', cursive;
+         transition: font-size 1s;
+     }
+     
+     
+     .logo-container .logo2{
+         line-height: 16px;
+         cursor: pointer;
+         font-size: 10px;
+     }
+}
+
 
 
 
@@ -287,7 +357,6 @@ body{
     display: flex;
     flex-direction: column;
     
-    /* padding-left: 50px; */
     
   }
   
@@ -317,6 +386,11 @@ body{
   .sidenav .one{
     display: none;
   }
+
+  @media screen and (max-width:750px) {
+    .sidenav .one{display:flex;}
+    .sidenav a{font-size: 14px; margin-bottom: 10px;}
+  }
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 35px;}
@@ -324,8 +398,27 @@ body{
     
   }
 
-  
-  @media screen and (max-width:750px) {
-    .sidenav .one{display:flex;}
-    .sidenav a{font-size: 14px; margin-bottom: 10px;}
+  @media screen and (max-width:420px) {
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: brown;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 70px;
+        
+        
+      }
+      
+      .sidenav a {
+        font-size: 12px;
+        margin-bottom:10px ;
+      }
   }
+
+  
+  

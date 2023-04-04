@@ -52,7 +52,12 @@ setInterval(()=>{
 function scrollDown(){
     // document.body.scrollTop = 0;
     // document.documentElement.scrollTop = 750;
-    document.documentElement.scrollTop = sectionTwoEl.offsetTop-120;
+    if(window.screen.width <=420){
+        document.documentElement.scrollTop = sectionTwoEl.offsetTop-80;
+    }else{
+        document.documentElement.scrollTop = sectionTwoEl.offsetTop-120;
+    }
+    
     // console.log(sectionTwoEl.offsetTop);
 }
 

@@ -6,25 +6,99 @@
 
 .video-sec1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0px 120px;
 }
 
 .video1,.video2,.video3{
-    max-width: 410px;
-    max-height: 700px;
+    width: 410px;
+    max-height: 500px;
 }
+
+
+
+@media screen and (max-width:1280px) {
+    .video1,.video2,.video3{
+        width: 505px;
+        max-height: 400px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .video-sec1{
+        margin: 0px 80px;
+    }
+    
+    .video1,.video2,.video3{
+        width: 410px;
+        max-height: 500px;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width:913px) {
+    .video-sec1{
+        margin: 0px 30px;
+    }
+    
+    .video1,.video2,.video3{
+        width: 415px;
+        max-height: 500px;
+    }
+}
+
+@media screen and (max-width:821px) {
+    .video-sec1{
+        margin: 0px 30px;
+    }
+    
+    .video1,.video2,.video3{
+        width: 370px;
+        max-height: 500px;
+    }
+}
+
+
+@media screen and (max-width:769px) {
+
+    .video-sec1{
+        margin: 0px 30px;
+    }
+    
+    .video1,.video2,.video3{
+        width: 345px;
+        max-height: 500px;
+    }
+
+}
+
+
+@media screen and (max-width:541px) {
+    .video-sec1{
+        margin: 0px 20px;
+    }
+    
+    .video1,.video2,.video3{
+        width: 100%;
+        max-height: 500px;
+    }
+}
+
 
 @media  screen and (max-width:420px) {
     .video-sec1{
         display: flex;
         flex-direction: column;
         margin: 0px 20px;
+        overflow: hidden;
     }
 
     .video1,.video2,.video3{
         width: 100%;
-        max-height: 210px;
+        max-height: 310px;
         margin-bottom: 15px;
     }
 }

@@ -11,6 +11,7 @@ html{
 
 .section-one-container{
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -47,6 +48,7 @@ html{
     font-weight: 400;
     bottom: 15%;
     left: 8%;
+    padding-right: 10px;
     color: white;
     
 }
@@ -71,6 +73,185 @@ html{
 }
 
 
+
+
+
+
+@media screen and (max-width:1280px) {
+    .onVideo-p1{
+        width: 850px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .onVideo-p1{
+        top: 33%;
+        left: 15%;
+        font-size: 36px;
+        font-weight: 50;
+        letter-spacing: 5px;
+        line-height: 55px;
+        width: 760px;
+        height: 208px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:913px) {
+    .onVideo-p1{
+        top: 33%;
+        left: 11%;
+        font-size: 27px;
+        letter-spacing: 4px;
+        line-height: 37px;
+        width: 700px;
+    }
+    
+    .onVideo-p2{
+        position: absolute;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        bottom: 12%;
+        left: 8%;
+        
+    }
+
+    .scroll-container{
+        left: 8%;
+        bottom: 9%;
+    }
+
+    .scroll-container > p{
+        font-size: 12px;
+    }
+    
+    #scroll-icon{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:821px) {
+
+    .onVideo-p1{
+        top: 33%;
+        left: 12%;
+        font-size: 27px;
+        letter-spacing: 4px;
+        line-height: 37px;
+        width: 630px;
+    }
+    
+    .onVideo-p2{
+        position: absolute;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        bottom: 12%;
+        left: 8%;
+        
+    }
+
+    .scroll-container{
+        left: 8%;
+        bottom: 9%;
+    }
+
+    .scroll-container > p{
+        font-size: 12px;
+    }
+    
+    #scroll-icon{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .onVideo-p1{
+        top: 33%;
+        left: 12%;
+        font-size: 25px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        width: 580px;
+    }
+    
+    .onVideo-p2{
+        position: absolute;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        bottom: 12%;
+        left: 8%;
+        
+    }
+
+    .scroll-container{
+        left: 8%;
+        bottom: 9%;
+    }
+
+    .scroll-container > p{
+        font-size: 12px;
+    }
+    
+    #scroll-icon{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:541px) {
+    .onVideo-p1{
+        top: 33%;
+        left: 12%;
+        font-size: 20px;
+        letter-spacing: 4px;
+        line-height: 25px;
+        width: 400px;
+    }
+    
+    .onVideo-p2{
+        position: absolute;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        bottom: 15%;
+        left: 8%;
+        color: white;
+        
+    }
+
+    .scroll-container{
+        left: 8%;
+        bottom: 9%;
+    }
+
+    .scroll-container > p{
+        font-size: 12px;
+    }
+    
+    #scroll-icon{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:420px){
     .onVideo-p1{
         display: flex;
@@ -93,7 +274,7 @@ html{
         font-size: 16px;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
-        bottom: 10%;
+        bottom: 11%;
         left: 8%;
         color: white;
         line-height: 26px;
@@ -124,20 +305,14 @@ html{
     }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:386px) {
     .onVideo-p1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
         top: 40%;
-        left: 10%;
-        text-align: center;
+        left: 12%;
         font-size: 16px;
-        color: white;
         font-weight: 500;
         letter-spacing: 2px;
         line-height: 22px;
-        width: 320px;
+        width: 280px;
     }
 }

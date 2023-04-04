@@ -15,6 +15,10 @@
     padding-right: 190px;
 }
 
+.footer-sec1-container > img{
+    right: 2%;
+}
+
 .logo-container2{
     text-align: center;
 }
@@ -91,4 +95,5 @@
 
 .footer-Sec2 p{
     font-size: 18px;
+    margin: 0;
 }
