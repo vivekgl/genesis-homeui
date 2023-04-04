@@ -258,16 +258,153 @@ body{
 }
 
 
+@media only screen and (max-width:951px) {
+    .nav-container{
+        padding: 10px 40px;
+        box-sizing: border-box;
+        height: 100px;
+        
+    }
+    
+    
+    .logo-container{
+       font-size: 40px;
+    }
+    
+    
+    .logo-container .logo1{
+        line-height: 35px;
+    }
+    
+    
+    .logo-container .logo2{
+        line-height: 8px;
+        font-size: 11px;
+    }
+
+    .nav-sec2-container li{
+        font-family: Arial, Helvetica, sans-serif;
+        padding:0px;
+        margin-left: 5px;
+        margin-right: 10px;
+        font-size: 11px;
+        
+    }
+    .aboutUs-container{
+        margin-left: 10px;
+    }
+
+    #enquire{ 
+        font-family: Arial, Helvetica, sans-serif;
+        padding:7px 26px;
+        font-weight: 600;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+}
+
+
+@media only screen and (max-width:851px) {
+    .nav-container{
+        padding: 10px 40px;
+        box-sizing: border-box;
+        height: 100px;
+        
+    }
+    
+    
+    .logo-container{
+       font-size: 38px;
+    }
+    
+    
+    .logo-container .logo1{
+        line-height: 30px;
+    }
+    
+    
+    .logo-container .logo2{
+        line-height: 8px;
+        font-size: 10px;
+    }
+
+    .nav-sec2-container li{
+        font-family: Arial, Helvetica, sans-serif;
+        padding:0px;
+        margin-left: 0px;
+        margin-right: 10px;
+        font-size: 10px;
+        
+    }
+    .aboutUs-container{
+        margin-left: 10px;
+    }
+
+    #enquire{ 
+        font-family: Arial, Helvetica, sans-serif;
+        padding:5px 21px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width:800px) {
+    .nav-container{
+        padding: 10px 40px;
+        box-sizing: border-box;
+        height: 100px;
+        
+    }
+    
+    
+    .logo-container{
+       font-size: 37px;
+    }
+    
+    
+    .logo-container .logo1{
+        line-height: 30px;
+    }
+    
+    
+    .logo-container .logo2{
+        line-height: 8px;
+        font-size: 10px;
+    }
+
+    .nav-sec2-container li{
+        font-family: Arial, Helvetica, sans-serif;
+        padding:0px;
+        margin-left: 0px;
+        margin-right: 10px;
+        font-size: 10px;
+        
+    }
+    .aboutUs-container{
+        margin-left: 10px;
+    }
+
+    #enquire{ 
+        font-family: Arial, Helvetica, sans-serif;
+        padding:5px 21px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
+
+
 @media screen and (min-width:421px) and (max-width: 750px){
     .nav-sec2-container li{
         display: none;
     }
     .nav-container{
         padding: 10px 40px;
+        height: 90px;
     }
     .logo-container .logo1{
-        font-size: 35px;
-        line-height: 20px;
+        font-size: 36px;
+        line-height: 27px;
         transition: font-size 1s;
     }
     .logo-container .logo2{
@@ -296,7 +433,7 @@ body{
         align-items: center;
         padding: 10px 50px;
         box-sizing: border-box;
-        height: 80px;
+        height: 70px;
         
     }
 

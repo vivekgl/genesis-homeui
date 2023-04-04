@@ -21,13 +21,21 @@ window.addEventListener('scroll', () => {
             logoEl1.style.lineHeight = '40px'
         }
         if(window.screen.width<=1024){
+            navContainerEl.style.height = '100px';
             logoEl1.style.fontSize = '38px'
             logoEl1.style.lineHeight = '32px'
             logoEl2.style.fontSize = '11px'
             logoEl2.style.lineHeight = '13px'
         }
+
+        if(window.screen.width<=750){
+            navContainerEl.style.height = '90px';
+        }
+        
+
+        
         if(window.screen.width <= 420){
-            navContainerEl.style.height = '80px';
+            navContainerEl.style.height = '70px';
             logoEl1.style.fontSize = '30px'
             logoEl1.style.lineHeight = '26px'
             logoEl2.style.fontSize = '10px'
@@ -49,11 +57,13 @@ window.addEventListener('scroll', () => {
         
 
         if(window.screen.width<=1024){
+            navContainerEl.style.height = '80px';
             logoEl1.style.fontSize = '36px'
             logoEl1.style.lineHeight = '32px'
             logoEl2.style.fontSize = '10px'
             logoEl2.style.lineHeight = '11px'
         }
+        
         if(window.screen.width <=420){
             navContainerEl.style.height = '65px';
             logoEl1.style.fontSize = '25px';
