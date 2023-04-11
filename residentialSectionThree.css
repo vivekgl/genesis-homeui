@@ -93,3 +93,43 @@ input:focus{
     border-bottom: 1px solid grey;
     outline: none;
 }
+
+@media screen and (max-width:850px) {
+    .sectionFive-sec1{
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .sectionFive-container{
+        margin-top: 20px;
+        padding-bottom: 50px;
+        
+    }
+
+    .sectionFive-sec1{
+        padding-top: 50px;
+    
+    }
+
+    .input-sec3{
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+    }
+
+    .input-sec3 > input{
+        padding-left: 5px;
+    }
+
+    .country{
+        margin-bottom: 20px;
+    }
+}

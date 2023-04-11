@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="commercialSectionFive.css">
     <link rel="stylesheet" href="commercialSectionSix.css">
     <link rel="stylesheet" href="commercialSectionSeven.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="enquireModal.css">
 
     <script src="header.js" defer></script>
@@ -44,7 +45,7 @@
     <script src="enquireModal.js" defer></script>
 </head>
 <body>
-    <header onmousewheel="stopWinScroll(event)" >
+    <header onmousewheel="stopWinScroll(event)">
 
         <nav>
             <div class="nav-container" style="z-index: 1; ">
@@ -56,7 +57,7 @@
                 <ul class="nav-sec2-container">
                     <li class="aboutUs-container">
                         <a href="about.html" class="aboutus">ABOUT US</a>
-                        <div class="underline1" ></div>
+                        <div class="underline1"></div>
                     </li>
                     <li class="residential-container">
                         <a href="#" class="residential">WHY US</a>
@@ -71,17 +72,21 @@
                         <a href="lifeAt.html" class="life">LIFE AT GENESIS</a>
                         <div class="underline5" style="width:105px"></div>
                     </li>
-                    <li class="enquire-container">
+                    <!-- <li class="century-container">
+                        <a href="genesisCircle.html" class="century">GENESIS CIRCLE</a>
+                        <div class="underline4"></div>
+                    </li> -->
+                    <li  class="enquire-container">
                         <button onclick="openEl()" class="enquire enquire111" id="enquire">ENQUIRE</button>
                         <div class="enquire-popup-modal">
                             <div class="before-form-all"></div>
-                            <form class="sectionFive-sec1 sectionFive-sec11">
+                            <form class="sectionFive-sec11">
                                 <span id="span111" onclick="closeEl()">&times;</span>
-                                <h2 class="enquire2 enquire21">ENQUIRE NOW</h2>
-                                <input class="input-sec1 input-sec11" type="text" placeholder="Full Name*">
-                                <input class="input-sec2 input-sec21" type="text" placeholder="Email*">
-                                <div class="input-sec3 input-sec31">
-                                    <select name="country" id="country" class="country country11">
+                                <h2 class="enquire21">ENQUIRE NOW</h2>
+                                <input class="input-sec11" type="text" placeholder="Full Name*">
+                                <input class="input-sec21" type="text" placeholder="Email*">
+                                <div class="input-sec31">
+                                    <select name="country" id="country" class="country11">
                                         <option value="select-country">Select Country*</option>
                                         <option value="india">China (+86)</option>
                                         <option value="india">Hong Kong (+852)</option>
@@ -89,9 +94,9 @@
                                         <option value="india">Pakistan (+92)</option>
                                         <option value="india">Russia (+7)</option>  
                                     </select>
-                                    <input class="mobileNumber" type="text" placeholder="Mobile Number*">
+                                    <input class="mobileNumber1" type="text" placeholder="Mobile Number*">
                                 </div>
-                                <select name="property" id="property" class="property property11">
+                                <select name="property" id="property" class="property11">
                                     <option value="select-property">Select Property*</option>
                                     <option value="outskirt">Genesys Outskirt</option>
                                     <option value="residential">Genesys Residential</option>
@@ -100,8 +105,8 @@
                                     <option value="luxury">Genesys Luxury</option>
                                     <option value="mountain">Genesys Mountain</option>
                                 </select>
-                                <input class="input-sec4 input-sec41" type="text" placeholder="Type Your Query">
-                                <div class="btn11-Container"><button type="submit" class="btn btn11">SUBMIT</button></div>
+                                <input class="input-sec41" type="text" placeholder="Type Your Query">
+                                <div class="btn11-Container"><button type="submit" class="btn11">SUBMIT</button></div>
                             </form>
                         </div>
                     </li>
@@ -109,18 +114,19 @@
                         <i class="fas fa-bars" onclick="openNav()"></i>
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                            
-                            <a href="#">MEDIA</a>
-                            <a href="#">AWARDS</a>
-                            <a href="residential.html">RESIDENTIAL</a>
-                            <a href="genesisCircle.html">GENESIS CIRCLE</a>
+                            <a href="about.html" class="aboutus one">ABOUT US</a>
+                            <a href="residential.html" class="residential one">RESIDENTIAL</a>
+                            <a href="commercial.html" class="commercial one">COMMERCIAL</a>
+                            <!-- <a href="genesisCircle.html" class="century one">GENESIS CIRCLE</a> -->
+                            <a href="lifeAt.html" class="life one">LIFE AT GENESIS</a>
+                            <a href="whyUs.html">WHY US</a>
                             <a href="#">GENESIS CONNECT</a>
-                            <a href="#">NRI CORNER</a>
+                            <a href="landProposal.html">LAND PROPOSALS</a>
                             <a href="#">CLIENT TESTIMONIALS</a>
                             <a href="#">SOCIAL RESPONSIBILITY</a>
-                            <a href="#">REFERRALS</a>
+                            <a href="#">MEDIA</a>
+                            <a href="#">AWARDS</a>
                             <a href="#">CONTACT US</a>
-                            
                           </div>
                     </span>
                 </ul>
@@ -129,6 +135,8 @@
         </nav>
         
     </header>
+
+    
 
     <main>
         <section class="sectionOne-commercial">
@@ -405,20 +413,50 @@
             </div>
         </section>
 
-        <section class="sectionEight-commercial">
-            <div class="sectionEight-MainContainer-Commercial">
-                <!-- <div class="wrapper">
-                    <div class="first"></div>
-                    <div class="first"></div>
-                    <div class="first"></div>
-                    <div class="first"></div>
-                    <div class="first"></div>
-                    <div class="first"></div>
-                    <div class="first"></div>
-                    <div class="first"></div>
-                </div> -->
+        
+    </main>
+
+    <footer>
+        <section class="sectionOne-footer sectionOne-footer1">
+            <div class="footer-sec1-container">
+                <div class="logo-container2">
+                    <h1 class="genesys-three">GENESIS</h1>
+                    <h4 class="new-innovation2">NEW INNOVATION</h4>
+                </div>
+                <div class="address-container">
+                    <p class="address">#544 First Floor, Hegde Nagar Main Road, Thanisandra, Bengaluru - 560077, Karnataka, India</p>
+                </div>
+                <div class="icon-container">
+                    <a href="#">
+                        <i id="i9" class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i id="i10" class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i id="i11" class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i id="i12" class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <img class="certification" src="https://www.centuryrealestate.in/assets/images/more/certification-badge.png">
+            </div>
+            <div class="last-sec-container">
+                <div class="anchor-container">
+                    <a class="projectsTwo" href="#">Projects</a>
+                    <a class="luxuryTwo" href="#">Luxury</a>
+                    <a class="premiumTwo" href="#">Premium</a>
+                    <a class="plottedTwo" href="#">Plotted</a>
+                    <a class="disclaimerTwo" href="#">Disclaimer</a>
+                    <a class="termsConditionTwo" href="#">T&C</a>
+                    <a class="privacyTwo" href="#">Privacy</a>
+                </div>
+                <div class="footer-Sec2">
+                    <p class="rights">© 2023 by Genesis Real Estate Holdings Pvt. Ltd. All rights reserved.</p>
+                </div>
             </div>
         </section>
-    </main>
+    </footer>
 </body>
 </html>

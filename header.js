@@ -4,6 +4,8 @@ const html = document.querySelector('html');
 const logoEl2 = document.querySelector('.logo2');
 const buttonEl = document.getElementById('enquire');
 
+const enquire2 = document.querySelector('.enquire-popup-modal1');
+
 // navContainerEl.onwheel =
 window.addEventListener('scroll', () => {
     if (html.scrollTop >= 0 && html.scrollTop < 20) {
@@ -90,7 +92,13 @@ function closeNav() {
 
 
 
+function openEl1(){
+    enquire2.style.display = 'flex';
+}
 
+function closeEl1(){
+    enquire2.style.display = 'none';
+}
 
 
 

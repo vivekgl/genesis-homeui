@@ -12,10 +12,14 @@
 /* Section Two  */
 .sectionTwo-About{
     margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sectionTwoAbout-SentenceBlock{
-    padding:0px 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0px 100px;
     text-align: center;
 }
 
@@ -29,4 +33,89 @@
     margin: 90px 0;
     font-size: 20px;
     line-height: 35px;
+}
+
+
+@media screen and (max-width:1350px) {
+
+    .sectionTwoAbout-SentenceBlock{
+        padding:0px 100px;
+        max-width: 1100px;
+    }
+
+    .sectionTwoAbout-SentenceBlock h1{
+        font-size: 38px;
+        line-height: 45px;
+        letter-spacing: 1px;
+    }
+
+    .sectionTwoAbout-SentenceBlock p{
+        margin: 40px 0;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:850px) {
+
+    .sectionTwo-About{
+        margin-top: 60px;
+    }
+
+    .sectionTwoAbout-SentenceBlock{
+        padding:0px 70px;
+    }
+
+    .sectionTwoAbout-SentenceBlock h1{
+        font-size: 33px;
+        line-height: 42px;
+        letter-spacing: 1px;
+    }
+
+    .sectionTwoAbout-SentenceBlock p{
+        margin: 40px 0;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:651px) {
+
+    .sectionTwoAbout-SentenceBlock{
+        padding:0px 30px;
+    }
+
+    .sectionTwoAbout-SentenceBlock h1{
+        font-size: 28px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+
+    .sectionTwoAbout-SentenceBlock p{
+        margin: 40px 0;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .sectionTwoAbout-SentenceBlock{
+        padding:0px 20px;
+    }
+
+    .sectionTwoAbout-SentenceBlock h1{
+        font-size: 23px;
+        line-height: 31px;
+        letter-spacing: 1px;
+    }
+
+    .sectionTwoAbout-SentenceBlock p{
+        margin: 40px 0;
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
 }

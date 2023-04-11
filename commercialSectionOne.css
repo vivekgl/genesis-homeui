@@ -45,8 +45,6 @@
 .imgContainer-Commercial{
     width: 100%;
     height: 650px;
-    /* overflow: hidden; */
-    /* padding-left: 10px; */
 }
 
 .imgContainer-Commercial img{
@@ -74,7 +72,7 @@
 
 
 .detailsLogoContainer-commercial > img{
-    max-width: 400px;
+    width: 400px;
 }
 
 
@@ -125,6 +123,48 @@
 
 }
 
+
+@media screen and (max-width:1024px) {
+    .sectionOne-Container-commercial{
+        height: 500px;
+    
+    }
+
+    .mainContainer-Commercial{
+        height: 500px;
+    }
+    
+    .container1-Commercial{
+        height: 500px;
+    }
+
+    .imgContainer-Commercial{
+        height: 500px;
+    }
+    
+    
+    .detailsLogoContainer-commercial > h2{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .detailsLogoContainer-commercial .span{
+        width: 120px;
+        height: 2px;
+        background-color: brown;
+        margin-bottom: 15px;
+    }
+    
+    
+    
+    .detailsLogoContainer-commercial > img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    
+}
 
 
 

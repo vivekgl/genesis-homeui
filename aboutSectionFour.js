@@ -77,7 +77,11 @@ function updateYear(){
             currentYear = yearsEl.length;
             
         }
-        yearContainerEl.style.transform = `translateX(-${(currentYear - 1) * 256.5}px)`;
+        if(window.screen.width >=1300){
+            yearContainerEl.style.transform = `translateX(-${(currentYear - 1) * 256.5}px)`;
+        }else if(window.screen.width <1300){
+            yearContainerEl.style.transform = `translateX(-${(currentYear - 1) * 200}px)`;
+        }
 }
 
 function updateSentence(){
@@ -87,7 +91,28 @@ function updateSentence(){
     }else if(currentYear < 1){
         currentYear = sentencesEl.length;
     }
-    sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 220}px)`
+    
+        
+    if(window.screen.width >=1460){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 220}px)`
+    }else if(window.screen.width <1460 && window.screen.width >=1230){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 175}px)`
+    }
+    else if(window.screen.width <1231 && window.screen.width>=1084){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 175}px)`
+    }
+    else if(window.screen.width <1084 && window.screen.width>=975){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 145}px)`
+    }
+    else if(window.screen.width <975 && window.screen.width>=785){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 145}px)`
+    }else if(window.screen.width <785 && window.screen.width>=466){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 110}px)`
+    }else if(window.screen.width <466 && window.screen.width>=390){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 110}px)`
+    }else if(window.screen.width <390 ){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 145}px)`
+    }
 }
 
 
@@ -97,5 +122,20 @@ function updateImage(){
     }else if(currentYear < 1){
         currentYear = imagesEl.length;
     }
-    imageContainerEl.style.transform = `translateY(-${(currentYear -1) * 673}px)`
+
+    if(window.screen.width >=1460){
+        imageContainerEl.style.transform = `translateY(-${(currentYear -1) * 673}px)`
+    }else if(window.screen.width >=1230 && window.screen.width <1460 ){
+        imageContainerEl.style.transform = `translateY(-${(currentYear -1) * 580}px)`
+    }else if(window.screen.width >=1080 && window.screen.width <1231){
+        imageContainerEl.style.transform = `translateY(-${(currentYear -1) * 500}px)`
+    }else if(window.screen.width < 1080 && window.screen.width >= 975){
+        imageContainerEl.style.transform = `translateY(-${(currentYear -1) * 500}px)`
+    }else if(window.screen.width < 975 && window.screen.width >= 785){
+        imageContainerEl.style.transform = `translateY(-${(currentYear -1) * 450}px)`
+    }else if(window.screen.width < 785){
+        imageContainerEl.style.transform = `translateY(-${(currentYear -1) * 450}px)`
+    }
+
+    
 }

@@ -23,6 +23,11 @@ function updateImg(){
         
     }
     currentImg++;
-    mainContainer.style.transform = `translateY(-${(currentImg - 1) * 100}vh)`; 
-    
+    if(window.screen.width >500){
+        mainContainer.style.transform = `translateY(-${(currentImg - 1) * 100}vh)`; 
+    }else if(window.screen.width <=500 && window.screen.width > 400 ){
+        mainContainer.style.transform = `translateY(-${(currentImg - 1) * 80}vh)`; 
+    }else if(window.screen.width <=400){
+        mainContainer.style.transform = `translateY(-${(currentImg - 1) * 70}vh)`; 
+    }
 }

@@ -89,14 +89,14 @@ body{
 }
 
 
-.nav-sec2-container .enquire-container a{ 
+.nav-sec2-container .enquire-container button{ 
     background-color: #9f1635;
-    padding:8px 31px;
+    padding:8px 31px ;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16px ;
 }
 
-.nav-sec2-container .enquire-container a:hover{ 
+.nav-sec2-container .enquire-container button:hover{ 
     background-color: white;
     color:#9f1635 ;
 }
@@ -294,11 +294,11 @@ body{
         margin-left: 10px;
     }
 
-    #enquire{ 
+    .enquire111{ 
         font-family: Arial, Helvetica, sans-serif;
-        padding:7px 26px;
+        padding:7px 26px !important;
         font-weight: 600;
-        font-size: 13px;
+        font-size: 13px !important;
         margin-right: 5px;
     }
 }
@@ -340,11 +340,11 @@ body{
         margin-left: 10px;
     }
 
-    #enquire{ 
+    .enquire111{ 
         font-family: Arial, Helvetica, sans-serif;
-        padding:5px 21px;
+        padding:5px 21px !important;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 12px !important;
     }
 }
 
@@ -385,11 +385,11 @@ body{
         margin-left: 10px;
     }
 
-    #enquire{ 
+    .enquire111{ 
         font-family: Arial, Helvetica, sans-serif;
-        padding:5px 21px;
+        padding:5px 21px !important;
         font-weight: 600;
-        font-size: 12px;
+        font-size: 12px !important;
     }
 }
 
@@ -481,6 +481,7 @@ body{
 
 
 .sidenav {
+    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     width: 0;
     position: fixed;
@@ -497,7 +498,7 @@ body{
     
   }
   
-  .sidenav a {
+  .sidenav a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 16px;
@@ -510,6 +511,14 @@ body{
   
   .sidenav a:hover {
     color: darkgray;
+  }
+
+  .sidenav > a > button{
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-size: 16px;
+    color: white;
   }
   
   .sidenav .closebtn {
@@ -527,6 +536,8 @@ body{
   @media screen and (max-width:750px) {
     .sidenav .one{display:flex;}
     .sidenav a{font-size: 14px; margin-bottom: 10px;}
+    .sidenav > a > button{ font-size: 14px;}
+    .enquire-popup-modal1{display: none;}
   }
   
   @media screen and (max-height: 450px) {
@@ -554,6 +565,10 @@ body{
       .sidenav a {
         font-size: 12px;
         margin-bottom:10px ;
+      }
+
+      .sidenav > a > button{
+         font-size: 12px;
       }
   }
 

@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mb-6 {
+    margin-top: 75px;
+}
+
+/* ---------------------SectionOne----------------------------------- */
+.sectionOne { 
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://github.com/divyashantkumarCS/genysis/blob/master/asset/images/whyus-fristImg.jpg?raw=true');
+    background-size: cover;
+    
+}
+
+
+/* ---------------------SectionTwo----------------------------------- */
+.sectionTwo {
+    margin-top: 7rem;
+}
+
+.mainHeading > h1 {
+    margin-bottom: 3rem;
+    padding: 0 12%;
+    font-family: "corporate_sbold", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.indicators {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.indicators .imgCont {
+    margin-bottom: 2rem !important;
+}
+
+.indicators .imgCont > img {
+    height: 72px;
+    width: 72px;
+}
+
+.indicators h2 {
+    color: #343434;
+    letter-spacing: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* ---------------------SectionThree, SectionFive----------------------------------- */
+
+.sectionThree .content, .sectionFive .content {
+    padding: 0 3.5rem;
+}
+
+.sectionThree .content > h3, .sectionFive .content > h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.sectionThree .content > p, .sectionFive .content > p {
+    margin-bottom: 1.7rem;
+    line-height: 1.7rem;
+}
+
+.sectionThree ul, .sectionFive ul {
+    list-style: none;
+}
+  
+.sectionThree ul li::before, .sectionFive ul li::before {
+    content: "\2022";
+    color: rgb(123, 0, 0) !important;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 1.5rem;
+}
+
+.sectionThree .content > ul li, .sectionFive .content > ul li {
+    margin-bottom: 1rem;
+}   
+
+/* ---------------------SectionFour, SectionSix, SectionSeven----------------------------------- */
+.sectionFour .content, .sectionSix .content, .sectionSeven .content {
+    padding: 0 3.5rem;
+}
+
+.sectionFour .content > h3, .sectionSix .content > h3 , .sectionSeven .content > h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.sectionFour .content > p, .sectionSix .content > p, .sectionSeven .content > p {
+    margin-bottom: 1.7rem;
+    line-height: 1.7rem;
+}

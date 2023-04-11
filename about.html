@@ -39,7 +39,7 @@
 <body>
     <header onmousewheel="stopWinScroll(event)" >
 
-        <nav>
+        <!-- <nav>
             <div class="nav-container" style="z-index: 1; ">
                 <a href="./index.html" class="logo-container">
                     <span class="logo1">GENESIS</span>
@@ -124,8 +124,93 @@
                 </ul>
                 
             </div>
-        </nav>
+        </nav> -->
         
+        <nav>
+            <div class="nav-container" style="z-index: 1; ">
+                <a href="./index.html" class="logo-container">
+                    <span class="logo1">GENESIS</span>
+                    <span class="logo2">NEW INNOVATION</span>
+                </a>
+                
+                <ul class="nav-sec2-container">
+                    <li class="aboutUs-container">
+                        <a href="about.html" class="aboutus">ABOUT US</a>
+                        <div class="underline1" style="visibility: visible;"></div>
+                    </li>
+                    <li class="residential-container">
+                        <a href="residential.html" class="residential">RESIDENTIAL</a>
+                        <div class="underline2"></div>
+                    </li>
+                    <li class="commercial-container">
+                        <a href="commercial.html" class="commercial">COMMERCIAL</a>
+                        <div class="underline3"></div>
+                    </li>
+                    <!-- <li class="century-container">
+                        <a href="genesisCircle.html" class="century">GENESIS CIRCLE</a>
+                        <div class="underline4"></div>
+                    </li> -->
+                    <li class="life-container">
+                        <a href="lifeAt.html" class="life">LIFE AT GENESIS</a>
+                        <div class="underline5"></div>
+                    </li>
+                    <li  class="enquire-container">
+                        <button onclick="openEl()" class="enquire enquire111" id="enquire">ENQUIRE</button>
+                        <div class="enquire-popup-modal">
+                            <div class="before-form-all"></div>
+                            <form class="sectionFive-sec11">
+                                <span id="span111" onclick="closeEl()">&times;</span>
+                                <h2 class="enquire21">ENQUIRE NOW</h2>
+                                <input class="input-sec11" type="text" placeholder="Full Name*">
+                                <input class="input-sec21" type="text" placeholder="Email*">
+                                <div class="input-sec31">
+                                    <select name="country" id="country" class="country11">
+                                        <option value="select-country">Select Country*</option>
+                                        <option value="india">China (+86)</option>
+                                        <option value="india">Hong Kong (+852)</option>
+                                        <option value="india">India (+91)</option>
+                                        <option value="india">Pakistan (+92)</option>
+                                        <option value="india">Russia (+7)</option>  
+                                    </select>
+                                    <input class="mobileNumber1" type="text" placeholder="Mobile Number*">
+                                </div>
+                                <select name="property" id="property" class="property11">
+                                    <option value="select-property">Select Property*</option>
+                                    <option value="outskirt">Genesys Outskirt</option>
+                                    <option value="residential">Genesys Residential</option>
+                                    <option value="villa">Genesys Villa</option>
+                                    <option value="winterSun">Genesys WinterSun</option>
+                                    <option value="luxury">Genesys Luxury</option>
+                                    <option value="mountain">Genesys Mountain</option>
+                                </select>
+                                <input class="input-sec41" type="text" placeholder="Type Your Query">
+                                <div class="btn11-Container"><button type="submit" class="btn11">SUBMIT</button></div>
+                            </form>
+                        </div>
+                    </li>
+                    <span class="bar-container" >
+                        <i class="fas fa-bars" onclick="openNav()"></i>
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="about.html" class="aboutus one">ABOUT US</a>
+                            <a href="residential.html" class="residential one">RESIDENTIAL</a>
+                            <a href="commercial.html" class="commercial one">COMMERCIAL</a>
+                            <!-- <a href="genesisCircle.html" class="century one">GENESIS CIRCLE</a> -->
+                            <a href="lifeAt.html" class="life one">LIFE AT GENESIS</a>
+                            <a href="whyUs.html">WHY US</a>
+                            <a href="#">GENESIS CONNECT</a>
+                            <a href="landProposal.html">LAND PROPOSALS</a>
+                            <a href="#">CLIENT TESTIMONIALS</a>
+                            <a href="#">SOCIAL RESPONSIBILITY</a>
+                            <a href="#">MEDIA</a>
+                            <a href="#">AWARDS</a>
+                            <a href="#">CONTACT US</a>
+                          </div>
+                    </span>
+                </ul>
+                
+            </div>
+        </nav>
     </header>
     <main>
         <section class="sectionOne-About">
@@ -137,8 +222,8 @@
 
         <section class="sectionTwo-About">
             <div class="sectionTwoAbout-SentenceBlock">
-                <h1>Genesis Real Estate is one of the leading professional real estate companies of India,<br>and the largest owners of Real Estate in<br>Bangalore.</h1>
-                <p>Genesis Real Estate is among the most respected full-spectrum developers of India, and one of the largest land<br>bank owners of the Industry with over 3000 acres of land and a Grade-A pipeline of over 20 Mn. sq.ft. under<br>development. With more than 40 years of industry leadership, Genesis Real Estate has come to be recognized<br>in the industry, as one of the oldest, most trusted and reliable brands for partners, investors, and homeowners<br>alike. Over the years, the growth of Genesis Real Estate has come to mirror the growth of Bengaluru as one of<br>Asia's fastest-growing global metro hubs.</p>
+                <h1>Genesis Real Estate is one of the leading professional real estate companies of India, and the largest owners of Real Estate in Bangalore.</h1>
+                <p>Genesis Real Estate is among the most respected full-spectrum developers of India, and one of the largest land bank owners of the Industry with over 3000 acres of land and a Grade-A pipeline of over 20 Mn. sq.ft. under development. With more than 40 years of industry leadership, Genesis Real Estate has come to be recognized in the industry, as one of the oldest, most trusted and reliable brands for partners, investors, and homeowners alike. Over the years, the growth of Genesis Real Estate has come to mirror the growth of Bengaluru as one of Asia's fastest-growing global metro hubs.</p>
             </div>
         </section>
 
@@ -174,7 +259,7 @@
                             <img id="img1-about-sec4" src="About3.jpg">
                             <img id="img1-about-sec4" src="farmHouse.jpg">
                             <img id="img1-about-sec4" src="luxury-img.jpg">
-                            <img id="img1-about-sec4" src="mountainsimage.jpg">
+                            <img id="img1-about-sec4" src="mountainsimage.jpg"> 
                         </div>
                     </div>
                     <div class="icon-sentence-container-About">

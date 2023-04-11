@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.sectionOne-footer1{
+    margin-top: 50px;
+}
+
 .footer-sec1-container{
     display: flex;
     justify-content: space-between;

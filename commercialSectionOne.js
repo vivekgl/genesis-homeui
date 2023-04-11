@@ -6,11 +6,11 @@ function updateImg1(){
 }
 
 function updateImg2(){
-    mainContainerEl.style.transform = 'translateY(-650px)'
+    mainContainerEl.style.transform = 'translateY(-500px)'
 
 }
 
 function updateImg3(){
-    mainContainerEl.style.transform = 'translateY(-1300px)'
+    mainContainerEl.style.transform = 'translateY(-1000px)'
 
 }

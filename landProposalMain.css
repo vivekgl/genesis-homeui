@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mt-6 {
+    margin-top: 75px;
+}
+
+/* --------------------------------SectionOne------------------------------------ */
+.sectionOne {
+    position: relative;
+    height: 440px;
+    background-image: url('https://github.com/divyashantkumarCS/genysis/blob/master/asset/images/land-proposal-mast-banner.png?raw=true');
+    background-size: cover;
+}
+
+.sectionOne .position-absolute {
+    top: 65%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+/* --------------------------------SectionTwo------------------------------------ */
+.sectionTwo > .row {
+    margin: 4rem 0;
+}
+
+.sectionTwo > .row > .content {
+    padding: 0 4rem;
+}
+
+.sectionTwo > .row > .content > h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 2.2rem;
+}
+
+.sectionTwo > .row > .content > h3 {
+    font-size: 28px;
+    line-height: 2.9rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.sectionTwo > .row > .content > p {
+    font-size: 16px;    
+    line-height: 1.8rem;
+    color: rgb(104, 102, 102);
+}   
+
+
+.sectionTwo > .row > .imgCont  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* --------------------------------SectionThree------------------------------------ */
+.sectionThree {
+    margin-bottom: 5rem;
+}
+
+.sectionThree .card {
+    border-radius: 0;
+    border-color: black;
+}
+
+.sectionThree .card h4 {
+    line-height: 2rem;
+}
+
+.sectionThree .card .description {
+    line-height: 1.7rem;
+    height: 130px;
+    overflow: hidden;
+    transition: height 2s;
+}
+
+.sectionThree .card .readless, .sectionThree .card .readmore {
+    color: rgb(23, 119, 119);
+    font-size: 16px;
+    font-weight: 600;
+}
+.sectionThree .card .readless:hover, .sectionThree .card .readmore:hover {
+    cursor: pointer;
+}
+.sectionThree .card .readless {
+    display: none;
+}
+
+
+
+/* --------------------------------SectionFour------------------------------------ */
+
+.sectionFour .imgList {
+    list-style-type: none;
+    margin-top: 3rem;
+}
+.sectionFour .imgList > li {
+    max-width: 20%;
+}
+
+.sectionFour .imgList > li img {
+    max-width: 50px !important;
+    height: 50px;
+}
+
+.sectionFour .imgList > li h5 {
+    color: rgb(151, 151, 151);
+}
+
+/* --------------------------------SectionFive------------------------------------ */
+
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border: solid 2px crimson;   
+}
+
+.form-check-input:focus {
+    border: solid 2px crimson;
+    box-shadow: none;
+}
+.form-check-input:checked {    
+    border: solid 2px crimson;
+    box-shadow: none;
+}
+
+.form-check-label {
+    padding-left: 15px;
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+}
+
+.accordion-item:first-of-type {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.accordion-item {
+    border: none;
+}
+
+.accordion-button::after {
+    margin-left: 20px;
+    background-image: url('https://github.com/divyashantkumarCS/genysis/blob/master/asset/images/toggle-accordian.png?raw=true') !important;
+}
+
+.accordion-button, .accordion-header{
+    background-color: transparent !important;  
+}
+
+.accordion-button:focus, .accordion-header:focus {
+    box-shadow: none !important;
+}
+
+.form-control::placeholder, .form-select {
+    color: rgb(151, 151, 151);
+}
+
+.form-control, .form-select {
+    margin-bottom: 35px !important;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border: solid 1px rgb(197, 195, 195);
+}
+
+input.form-control[type="file"] {
+    color: rgb(151, 151, 151);
+}
+
+.submitBtn {
+    width: 180px;
+    height: 43px;
+    letter-spacing: 2px;
+    background-color: #9e1633;
+    color: white;
+    border: solid 1px #9e1633;
+    border-radius: 6px;
+    transition: background-color .3s;
+}
+
+.submitBtn:hover {
+    background-color: white;
+    color: #9e1633;
+}
