@@ -77,9 +77,9 @@ function updateYear(){
             currentYear = yearsEl.length;
             
         }
-        if(window.screen.width >=1300){
+        if(window.screen.width >=1461){
             yearContainerEl.style.transform = `translateX(-${(currentYear - 1) * 256.5}px)`;
-        }else if(window.screen.width <1300){
+        }else if(window.screen.width <1461){
             yearContainerEl.style.transform = `translateX(-${(currentYear - 1) * 200}px)`;
         }
 }
@@ -94,9 +94,9 @@ function updateSentence(){
     
         
     if(window.screen.width >=1460){
-        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 220}px)`
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 265}px)`
     }else if(window.screen.width <1460 && window.screen.width >=1230){
-        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 175}px)`
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 220}px)`
     }
     else if(window.screen.width <1231 && window.screen.width>=1084){
         sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 175}px)`
@@ -105,11 +105,11 @@ function updateSentence(){
         sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 145}px)`
     }
     else if(window.screen.width <975 && window.screen.width>=785){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 180}px)`
+    }else if(window.screen.width <785 && window.screen.width>=526){
+        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 110}px)`
+    }else if(window.screen.width <526 && window.screen.width>=390){
         sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 145}px)`
-    }else if(window.screen.width <785 && window.screen.width>=466){
-        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 110}px)`
-    }else if(window.screen.width <466 && window.screen.width>=390){
-        sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 110}px)`
     }else if(window.screen.width <390 ){
         sentenceContainerEl.style.transform = `translateY(-${(currentYear - 1) * 145}px)`
     }

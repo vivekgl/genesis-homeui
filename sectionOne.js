@@ -1,4 +1,4 @@
-const sentence = [  "BUILDING LANDMARKS <br> SINCE 1973",
+const sentence = [  "BUILDING LANDMARKS <br> SINCE 2010",
                     "",
                     "ONE OF THE MOST <br> RESPECTED AND TRUSTWORTHY <br> NAMES IN INDIAN REAL ESTATE.",
                     "",

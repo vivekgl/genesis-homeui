@@ -1,0 +1,171 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------SectionOne------------------------------------ */
+
+.sectionOne {
+    margin-top: 200px;
+}
+
+.findUsHead {
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.sectionOne .contactCont {
+    margin-bottom: 25px;
+}
+
+.sectionOne .officeKind {
+    font-size: 15px;
+    font-weight: 600;
+    color: brown;
+}
+
+.sectionOne .companyName {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sectionOne .companyAddress {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.sectionOne .contactNo {
+
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+/* ----------------------------------SectionTwo------------------------------------ */
+.welcomeHead {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+}
+
+.sectionTwo .card {
+    border-radius: 0;
+    transition: transform .5s;
+}
+
+.sectionTwo .card:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 8px 12px 2px #00000063;
+}
+
+.sectionTwo .card .card-header {
+    border-radius: 0;
+    background-color: brown;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+
+.sectionTwo .card .card-body {
+    height: 80px;
+}
+
+
+/* ----------------------------------SectionTwo------------------------------------ */
+
+.sectionThree .formCont {
+    background-color: rgb(106, 2, 2);
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.sectionThree .formHead {
+    color: white;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 40px
+}
+
+.form-control::placeholder,
+.form-select {
+    color: rgb(201, 201, 201);
+    background-color: transparent;
+}
+
+.form-control,
+.form-select {
+    margin-bottom: 20px !important;
+    padding-left: 0;
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    border-bottom: solid 1px rgb(201, 201, 201);
+    background-color: transparent;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    color: rgb(201, 201, 201);
+    border-radius: 0;
+    border: none;
+    border-bottom: solid 1px rgb(201, 201, 201);
+    background-color: transparent;
+}
+/* \F229 */
+
+
+.form-select option {
+    background-color: brown;
+    color: white;
+}
+
+.form-select {
+    padding-left: 25px;
+    --bs-form-select-bg-img: url();
+}
+.selectCont{
+    position: relative;
+}
+.selectIcon {
+    position: absolute;
+    top: 15px;
+
+}
+.selectCont:focus-within .selectIcon {
+    transform: rotate(180deg);
+} 
+
+textarea.form-control {
+    resize: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: brown;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: brown;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: brown;
+}
