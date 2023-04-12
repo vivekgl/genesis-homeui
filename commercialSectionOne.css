@@ -3,10 +3,11 @@
 }
 
 
-.sectionOne-Container-commercial{
+/* .sectionOne-Container-commercial{
     position: relative;
     height: 650px;
-    overflow: hidden;display: flex;
+    overflow: hidden;
+    display: flex;
 
 }
 
@@ -14,11 +15,11 @@
     display: flex;
     flex-direction: column;
     height: 650px;
-    width: 100%;
+    width: 100%; */
     /* overflow: hidden; */
-    position: absolute;
+    /* position: absolute; */
     /* transform: translateY(-1300px); */
-}
+/* }
 
 .container1-Commercial{
     display: flex;
@@ -35,9 +36,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: relative;
+    position: relative; */
     /* overflow: hidden; */
-    padding: 70px 80px;
+    /* padding: 70px 80px;
     margin-top: 50px;
 }
 
@@ -55,9 +56,9 @@
 
 .detailsLogoContainer-commercial > h2{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 18px; */
     /* letter-spacing: 1px; */
-    line-height: 28px;
+    /* line-height: 28px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -162,9 +163,81 @@
     }
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:800px){
+
+    .sectionOne-Container-commercial{
+        position: relative;
+        height: 885px;
+        overflow: hidden;
+        display: flex;
+    
+    } */
+
+    /* .container1-Commercial2{
+        display: none;
+    } */
+
+    /* .mainContainer-Commercial{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .container1-Commercial{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        height: 100%;
+        
+    }
+
+    .container1-Commercial21{
+        margin-bottom: 0px;
+    }
+
+    .detailsLogoContainer-commercial{
+        width: 100%;
+        padding: 70px 80px;
+        margin-top: 0px;
+    }
+
+    .detailsLogoContainer-commercial > img{
+        width: 400px;
+    }
+} */
+
+
+
+.img-last1{
+    height: 724px !important;
+    object-fit: cover;
+}
+
+.div-class{
+    margin-top: 100px !important;
+    padding: 4rem !important;
+}
+
+@media screen and (max-width:1200px) {
     
 }
+
+@media screen and (max-width:768px){
+    .div-container-all{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
+
+    .img-last{
+        padding: 0px !important;
+    }
+
+    .div-class{
+        margin-top: 0px !important;
+        padding: 4rem;
+    }
+}
+
+
 
 
 

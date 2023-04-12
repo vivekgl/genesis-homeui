@@ -6,9 +6,10 @@
 
 .sectionSevenContainer-lifeAt{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     overflow: hidden;
-    height: 420px;
+    
     box-sizing: border-box;
     padding: 0px 100px;
     margin-bottom: 50px;
@@ -22,6 +23,8 @@
     overflow-y: scroll;
     overflow-x: hidden;
     padding: 15px;
+    margin-bottom: 50px;
+    height: 420px;
     
     
 }
@@ -582,6 +585,45 @@ font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: lowercase;
     margin-left: 10px;
+}
+
+
+
+@media screen and (max-width:1080px) {
+    .sectionSevenContainer-lifeAt{
+        padding: 0px 30px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .sectionSevenContainer-lifeAt{
+        padding: 0px 100px;
+    }
+
+    .sec7-container1-lifeAt, .sec7-container2-lifeAt, .sec7-container3-lifeAt{
+        width: 100%;
+        border: 1px solid black;
+        padding: 15px;
+        margin-bottom: 50px;
+        border-radius: 20px; 
+    }
+}
+
+@media screen and (max-width:600px){
+    .sectionSevenContainer-lifeAt{
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .sectionSevenContainer-lifeAt{
+        padding: 0px 20px;
+        margin-bottom: 0;
+    }
+
+    .sec7-container1-lifeAt, .sec7-container2-lifeAt, .sec7-container3-lifeAt{
+        height: 350px;
+    }
 }
 
 

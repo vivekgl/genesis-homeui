@@ -71,3 +71,108 @@
     width: 100%;
     max-height: 400px;
 }
+
+
+@media screen and (max-width:1300px) {
+    .sec5ContainerCommercialDetails{
+        padding: 0px 70px;
+    }
+
+    .sec5ContainerCommercialDetails > img{
+        width: 500px;
+    }
+
+    .sec5ImgDetails-commercial > h2{
+        font-size: 30px;
+        font-weight: 500;
+        color: brown;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:1051px) {
+    .sec5ContainerCommercialDetails{
+        padding: 0px 60px;
+    }
+
+    .sec5ContainerCommercialDetails > img{
+        width: 450px;
+        height:600px;
+    }
+
+    .sec5ImgDetails-commercial > table, th, td {
+        padding: 8px 5px;
+        font-size: 15px;
+    }
+
+    .td{
+        font-size: 13px;
+    }
+    
+    .sec5ImgDetails-commercial > img{
+        width: 100%;
+        max-height: 250px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .sec5ContainerCommercialDetails > img{
+        width: 400px;
+        height:550px;
+    }
+
+    .sec5ImgDetails-commercial > div{
+        margin-bottom: 20px;
+    }
+
+    .sec5ImgDetails-commercial > h2{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:790px){
+
+
+    .sec5-mainContainer-commercial{
+        background-size: cover;
+    }
+
+    .sec5ContainerCommercialDetails{
+        flex-direction: column-reverse;
+
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .sec5ContainerCommercialDetails > img{
+        width: 100%;
+        height:550px;
+    }
+}
+
+
+@media screen and (max-width:540px){
+
+    .sec5-mainContainer-commercial{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .sec5ContainerCommercialDetails{
+        flex-direction: column-reverse;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .sec5ContainerCommercialDetails .sec5ImgDetails-commercial{
+        padding-left: 0px;
+    
+    }
+}
+
+@media screen and (max-width:430px){
+    .sec5ContainerCommercialDetails > img{
+        height: 400px;
+    }
+}

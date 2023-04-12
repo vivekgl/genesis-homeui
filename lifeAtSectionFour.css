@@ -20,3 +20,32 @@
     height: 100%;
 }
 
+
+@media screen and (max-width:769px) {
+    .imgContainerSec4-lifeAt {
+        height: 450px;
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .imgContainerSec4-lifeAt {
+        height: 350px;
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .imgContainerSec4-lifeAt {
+        height: 300px;
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .imgContainerSec4-lifeAt {
+        height: 250px;
+    }
+}
+
+

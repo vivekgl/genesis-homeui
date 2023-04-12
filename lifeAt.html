@@ -33,8 +33,9 @@
     <link rel="stylesheet" href="lifeAtSectionFive.css">
     <link rel="stylesheet" href="lifeAtSectionSix.css">
     <link rel="stylesheet" href="./lifeAtSectinSeven.css">
-    <link rel="stylesheet" href="lifeAtFooter.css">
+    <!-- <link rel="stylesheet" href="lifeAtFooter.css"> -->
     <link rel="stylesheet" href="enquireModal.css">
+    <link rel="stylesheet" href="footer.css">
 
     <!--       JS       -->
     <script src="header.js" defer></script>
@@ -64,39 +65,42 @@
                         <div class="underline1"></div>
                     </li>
                     <li class="residential-container">
-                        <a href="#" class="residential">PROJECTS</a>
+                        <a href="residential.html" class="residential">RESIDENTIAL</a>
                         <div class="underline2"></div>
                     </li>
                     <li class="commercial-container">
-                        <a href="#" class="commercial">WHY US</a>
+                        <a href="whyUs.html" class="commercial">WHY US</a>
                         <div class="underline3"></div>
                     </li>
-                    <li class="century-container">
-                        <a href="#" class="century">CONTACT US</a>
+                    <!-- <li class="century-container">
+                        <a href="genesisCircle.html" class="century">GENESIS CIRCLE</a>
                         <div class="underline4"></div>
+                    </li> -->
+                    <li class="life-container">
+                        <a href="contactUs.html" class="life">CONTACT US</a>
+                        <div class="underline5"></div>
                     </li>
                     <li class="enquire-container">
-                        <button onclick="openEl()" class="enquire enquire111" id="enquire" style="padding:
-                        6px 30px;">ENQUIRE</button>
+                        <button onclick="openEl()" class="enquire enquire111" id="enquire">ENQUIRE</button>
                         <div class="enquire-popup-modal">
                             <div class="before-form-all"></div>
-                            <form class="sectionFive-sec1 sectionFive-sec11">
+                            <form class="sectionFive-sec11">
                                 <span id="span111" onclick="closeEl()">&times;</span>
-                                <h2 class="enquire2 enquire21">ENQUIRE NOW</h2>
-                                <input class="input-sec1 input-sec11" type="text" placeholder="Full Name*">
-                                <input class="input-sec2 input-sec21" type="text" placeholder="Email*">
-                                <div class="input-sec3 input-sec31">
-                                    <select name="country" id="country" class="country country11">
+                                <h2 class="enquire21">ENQUIRE NOW</h2>
+                                <input class="input-sec11" type="text" placeholder="Full Name*">
+                                <input class="input-sec21" type="text" placeholder="Email*">
+                                <div class="input-sec31">
+                                    <select name="country" id="country" class="country11">
                                         <option value="select-country">Select Country*</option>
                                         <option value="india">China (+86)</option>
                                         <option value="india">Hong Kong (+852)</option>
                                         <option value="india">India (+91)</option>
                                         <option value="india">Pakistan (+92)</option>
-                                        <option value="india">Russia (+7)</option>  
+                                        <option value="india">Russia (+7)</option>
                                     </select>
-                                    <input class="mobileNumber" type="text" placeholder="Mobile Number*">
+                                    <input class="mobileNumber1" type="text" placeholder="Mobile Number*">
                                 </div>
-                                <select name="property" id="property" class="property property11">
+                                <select name="property" id="property" class="property11">
                                     <option value="select-property">Select Property*</option>
                                     <option value="outskirt">Genesys Outskirt</option>
                                     <option value="residential">Genesys Residential</option>
@@ -105,8 +109,8 @@
                                     <option value="luxury">Genesys Luxury</option>
                                     <option value="mountain">Genesys Mountain</option>
                                 </select>
-                                <input class="input-sec4 input-sec41" type="text" placeholder="Type Your Query">
-                                <div class="btn11-Container"><button type="submit" class="btn btn11">SUBMIT</button></div>
+                                <input class="input-sec41" type="text" placeholder="Type Your Query">
+                                <div class="btn11-Container"><button type="submit" class="btn11">SUBMIT</button></div>
                             </form>
                         </div>
                     </li>
@@ -115,17 +119,18 @@
                         <div id="mySidenav" class="sidenav">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                             <a href="about.html" class="aboutus one">ABOUT US</a>
-                            <a href="#" class="residential one">PROJECTS</a>
-                            <a href="#" class="commercial one">WHY US</a>
-                            <a href="#" class="century one">CONTACT US</a>
+                            <a href="residential.html" class="residential one">RESIDENTIAL</a>
+                            <a href="commercial.html" class="commercial one">COMMERCIAL</a>
+                            <!-- <a href="genesisCircle.html" class="century one">GENESIS CIRCLE</a> -->
+                            <a href="lifeAt.html" class="life one">LIFE AT GENESIS</a>
+                            <a href="whyUs.html">WHY US</a>
+                            <a href="#">GENESIS CONNECT</a>
+                            <a href="landProposal.html">LAND PROPOSALS</a>
+                            <a href="#">CLIENT TESTIMONIALS</a>
+                            <a href="#">SOCIAL RESPONSIBILITY</a>
                             <a href="#">MEDIA</a>
                             <a href="#">AWARDS</a>
-                            <a href="#">REFERRALS</a>
-                            <a href="#">NRI CORNER</a>
-                            <a href="#">CENTURY CONNECT</a>
-                            <a href="#">SOCIAL RESPONSIBILITY</a>
-                            <a href="#">CUSTOMER TESTIMONIALS</a>
-                            <a href="lifeAt.html">LIFE AT GENESIS</a>
+                            <a href="#">CONTACT US</a>
                         </div>
                     </span>
                 </ul>
@@ -134,7 +139,6 @@
         </nav>
 
     </header>
-
     <main>
         <section class="sectionOne-lifeAt">
             <div class="sectionOneContainer-lifeAt"></div>
@@ -152,7 +156,7 @@
         <section class="sectionThree-lifeAt">
             <div class="sectionThreeContainer-lifeAt">
                 <h1>JOURNEY OF GROWTH</h1>
-                <video width="100%" height="400" autoplay>
+                <video width="100%" autoplay>
                     <source src="video.mp4" type="video/mp4">
                 </video>
             </div>
@@ -192,7 +196,9 @@
                 <span class="span-sec5-lifeAt"></span>
                 <h1>DO YOU SEE YOURSELF HERE? JOIN US.</h1>
                 <h3>We believe, who you are makes you better at what you do.</h3>
+
                 <div class="div-containerSec5-lifeAt">
+
                     <div class="container1-sec5-lifeAt">
                         <h3>DEPARTMENTS</h3>
                         <div class="detailsContainer1-sec5-lifeAt">
@@ -243,7 +249,8 @@
                         </div>
                     </div>
                     <p><a href="#"> #GetReal </a> with <a href="#"> #GenesisRealEstate </a></p>
-                    <p>Rapid development, excellent connectivity, and proximity to the Bengaluru airport are just some factors that make North Bengaluru a real estate goldmine.</p>
+                    <p>Rapid development, excellent connectivity, and proximity to the Bengaluru airport are just some
+                        factors that make North Bengaluru a real estate goldmine.</p>
 
                     <p>
                         <a href="#"> #GenesisRealEstate </a>
@@ -269,12 +276,12 @@
                         <a href="#">
                             <i class="fa-solid fa-thumbs-up"></i>
                             <i class="fa-regular fa-lightbulb"></i>
-                             45 - 
+                            45 -
                         </a>
                         <a href="#"> 1 Comment</a>
                     </p>
                     <p class="sec7-container1-lifeAt-paragraph2">
-                        <a  id="anchor-fa-thumbs-up" href="#"> <i class="fa-regular fa-thumbs-up"></i> Like</a>
+                        <a id="anchor-fa-thumbs-up" href="#"> <i class="fa-regular fa-thumbs-up"></i> Like</a>
                         <a id="anchor-fa-thumbs-up" href="#"><i class="fa-regular fa-comment"></i> Comment</a>
                         <a id="anchor-fa-thumbs-up" href="#"><i class="fa-solid fa-share"></i> Share</a>
                     </p>
@@ -288,104 +295,58 @@
                             <a href="#">Tweets from @GenesisBLR</a>
                             <button>Follow</button>
                         </div>
-                        
+
                     </div>
                     <div class="div2-one">
-                         <div class="div2-two">
+                        <div class="div2-two">
                             <div class="logo-container2 logo-container22 logo-container221">
                                 <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
                                 <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
                             </div>
                             <div class="div2-two-anchor-container1">
-                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene... </a>
+                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene...
+                                </a>
                                 <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
                                 <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
                             </div>
                         </div>
                         <p id="div2-two-p1"></p>
-                        <a class="div2-one-anchor1" href="#">Visit: <span>genesishomerealestate.in/projects/gen...</span></a>
-                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg" ></div>
+                        <a class="div2-one-anchor1" href="#">Visit:
+                            <span>genesishomerealestate.in/projects/gen...</span></a>
+                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg"></div>
                         <div class="div2-one-icon-lineContainer">
                             <div class="div2-one-icon-Container">
                                 <i class="fa-regular fa-message" id="div2-one-icon1"><span>5</span></i>
                                 <i class="fa-regular fa-heart" id="div2-one-icon2"><span>8</span></i>
                             </div>
                             <i class="fa-solid fa-circle-info" id="div2-one-icon3"></i>
-                            
+
                         </div>
                     </div>
 
                     <div class="div2-one">
                         <div class="div2-two">
-                           <div class="logo-container2 logo-container22 logo-container221">
-                               <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
-                               <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
+                            <div class="logo-container2 logo-container22 logo-container221">
+                                <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
+                                <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
                             </div>
                             <div class="div2-two-anchor-container1">
-                               <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene... </a>
-                               <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
-                               <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
+                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene...
+                                </a>
+                                <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
+                                <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
                             </div>
                         </div>
                         <p id="div2-two-p2"></p>
-                        <a class="div2-one-anchor1" href="#">Visit: <span>genesishomerealestate.in/projects/gen...</span></a>
-                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg" ></div>
-                        <div class="div2-one-icon-lineContainer">
-                            <div class="div2-one-icon-Container">
-                               <i class="fa-regular fa-message" id="div2-one-icon1"><span>5</span></i>
-                               <i class="fa-regular fa-heart" id="div2-one-icon2"><span>8</span></i>
-                            </div>
-                            <i class="fa-solid fa-circle-info" id="div2-one-icon3"></i>  
-                        </div>
-                    </div>
-            
-                    <div class="div2-one">
-                        <div class="div2-two">
-                        <div class="logo-container2 logo-container22 logo-container221">
-                            <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
-                            <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
-                        </div>
-                        <div class="div2-two-anchor-container1">
-                            <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene... </a>
-                            <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
-                            <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
-                        </div>  
-                    </div>
-                    <p id="div2-two-p3"></p>
-                    <a class="div2-one-anchor1" href="#">Visit: <span>genesishomerealestate.in/projects/gen...</span></a>
-                    <div class="div2-one-ingContainer"><img src="mountainsimage.jpg" ></div>
-                    <div class="div2-one-icon-lineContainer">
-                        <div class="div2-one-icon-Container">
-                            <i class="fa-regular fa-message" id="div2-one-icon1"><span>5</span></i>
-                            <i class="fa-regular fa-heart" id="div2-one-icon2"><span>8</span></i>
-                        </div>
-                        <i class="fa-solid fa-circle-info" id="div2-one-icon3"></i>
-                        
-                    </div>
-                    </div>
-
-                    <div class="div2-one">
-                        <div class="div2-two">
-                            <div class="logo-container2 logo-container22 logo-container221">
-                                <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
-                                <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
-                            </div>
-                            <div class="div2-two-anchor-container1">
-                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene... </a>
-                                <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
-                                <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
-                            </div>   
-                        </div>
-                        <p id="div2-two-p4"></p>
-                        <a class="div2-one-anchor1" href="#">Visit: <span>genesishomerealestate.in/projects/gen...</span></a>
-                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg" ></div>
+                        <a class="div2-one-anchor1" href="#">Visit:
+                            <span>genesishomerealestate.in/projects/gen...</span></a>
+                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg"></div>
                         <div class="div2-one-icon-lineContainer">
                             <div class="div2-one-icon-Container">
                                 <i class="fa-regular fa-message" id="div2-one-icon1"><span>5</span></i>
                                 <i class="fa-regular fa-heart" id="div2-one-icon2"><span>8</span></i>
                             </div>
                             <i class="fa-solid fa-circle-info" id="div2-one-icon3"></i>
-                            
                         </div>
                     </div>
 
@@ -396,14 +357,70 @@
                                 <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
                             </div>
                             <div class="div2-two-anchor-container1">
-                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene... </a>
+                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene...
+                                </a>
+                                <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
+                                <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <p id="div2-two-p3"></p>
+                        <a class="div2-one-anchor1" href="#">Visit:
+                            <span>genesishomerealestate.in/projects/gen...</span></a>
+                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg"></div>
+                        <div class="div2-one-icon-lineContainer">
+                            <div class="div2-one-icon-Container">
+                                <i class="fa-regular fa-message" id="div2-one-icon1"><span>5</span></i>
+                                <i class="fa-regular fa-heart" id="div2-one-icon2"><span>8</span></i>
+                            </div>
+                            <i class="fa-solid fa-circle-info" id="div2-one-icon3"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="div2-one">
+                        <div class="div2-two">
+                            <div class="logo-container2 logo-container22 logo-container221">
+                                <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
+                                <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
+                            </div>
+                            <div class="div2-two-anchor-container1">
+                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene...
+                                </a>
+                                <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
+                                <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <p id="div2-two-p4"></p>
+                        <a class="div2-one-anchor1" href="#">Visit:
+                            <span>genesishomerealestate.in/projects/gen...</span></a>
+                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg"></div>
+                        <div class="div2-one-icon-lineContainer">
+                            <div class="div2-one-icon-Container">
+                                <i class="fa-regular fa-message" id="div2-one-icon1"><span>5</span></i>
+                                <i class="fa-regular fa-heart" id="div2-one-icon2"><span>8</span></i>
+                            </div>
+                            <i class="fa-solid fa-circle-info" id="div2-one-icon3"></i>
+
+                        </div>
+                    </div>
+
+                    <div class="div2-one">
+                        <div class="div2-two">
+                            <div class="logo-container2 logo-container22 logo-container221">
+                                <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
+                                <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
+                            </div>
+                            <div class="div2-two-anchor-container1">
+                                <a class="div2-two-anchor1" href="#"><span><b>GenesisHome Real ...</b></span> @Gene...
+                                </a>
                                 <a class="div2-two-anchor2" href="#"> -Jun 10, 2021 </a>
                                 <a class="div2-two-anchor3" href="#"> <i class="fa-brands fa-twitter"></i></a>
                             </div>
                         </div>
                         <p id="div2-two-p5"></p>
-                        <a class="div2-one-anchor1" href="#">Visit: <span>genesishomerealestate.in/projects/gen...</span></a>
-                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg" ></div>
+                        <a class="div2-one-anchor1" href="#">Visit:
+                            <span>genesishomerealestate.in/projects/gen...</span></a>
+                        <div class="div2-one-ingContainer"><img src="mountainsimage.jpg"></div>
                         <div class="div2-one-icon-lineContainer">
                             <div class="div2-one-icon-Container">
                                 <i class="fa-regular fa-message" id="div2-one-icon1"><span>5</span></i>
@@ -437,14 +454,16 @@
 
                         <div class="divTwo-one2-container">
                             <div class="divTwo-two-mainContainer">
-                                <div class="divTwo-two-imgContainer"><img src="mountainsimage.jpg" ></div>
+                                <div class="divTwo-two-imgContainer"><img src="mountainsimage.jpg"></div>
                                 <div class="divTwo-one2-container-logoAnchor">
                                     <div class="logo-container2 logo-container22 logo-container221">
                                         <h1 class="genesys-three genesys-three2 genesys-three21">GENESIS</h1>
-                                        <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION</h4>
+                                        <h4 class="new-innovation2 new-innovation22 new-innovation221">NEW INNOVATION
+                                        </h4>
                                     </div>
                                     <div class="divTwo-one2-container-iconAnchor">
-                                        <p>Century Real Estate Holdings Private Limited  <i class="fa-solid fa-circle-check"></i></p>
+                                        <p>Century Real Estate Holdings Private Limited <i
+                                                class="fa-solid fa-circle-check"></i></p>
                                         <a href="#">about 2 weaks ago</a>
                                     </div>
                                     <i class="fa-brands fa-facebook"></i>
@@ -459,7 +478,7 @@
                                     <a href="#"><i class="fa-solid fa-message"><span>comment</span></i></a>
                                     <a href="#"><i class="fa-solid fa-share"><span>share</span></i></a>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -469,14 +488,14 @@
     </main>
 
     <footer>
-        <section class="sectionOne-footer">
+        <section class="sectionOne-footer sectionOne-footer1">
             <div class="footer-sec1-container">
                 <div class="logo-container2">
                     <h1 class="genesys-three">GENESIS</h1>
                     <h4 class="new-innovation2">NEW INNOVATION</h4>
                 </div>
                 <div class="address-container">
-                    <p class="address">#544 First Floor, Hegde Nagar Main Road,Thanisandra, Bengaluru - 560077,
+                    <p class="address">#544 First Floor, Hegde Nagar Main Road, Thanisandra, Bengaluru - 560077,
                         Karnataka, India</p>
                 </div>
                 <div class="icon-container">
@@ -512,15 +531,321 @@
             </div>
         </section>
     </footer>
-    <script>
-        const containerEl = document.querySelector('.enquire-popup-modal');
 
-        function openEl(){
-            containerEl.style.visibility = 'visible';
+
+
+    <script>
+        const containerEl1 = document.querySelector('.enquire-popup-modal');
+
+        function openEl() {
+            containerEl1.style.visibility = 'visible';
         }
 
-        function closeEl(){
-            containerEl.style.visibility = 'hidden';
+        function closeEl() {
+            containerEl1.style.visibility = 'hidden';
+        }
+
+
+        const deptEl = [
+            {
+                "heading": "Graphic Designer",
+                "place": "Bangalore - Hebbal"
+            },
+            {
+                "heading": "Commercial Sales Manager",
+                "place": "Bangalore - Hebbal"
+            },
+            {
+                "heading": "Resale Manager",
+                "place": "Bangalore - Hebbal"
+            },
+            {
+                "heading": "HR Executive",
+                "place": "Bangalore - Millers Rd Office"
+            },
+            {
+                "heading": "Sr. Manager / AGM - Brand Experience & Marketing Activations",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Sr. Executive / Asst. Manager - Billing, MIS and Analytics",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Mgr. / Sr. Mgr. - Brand Marketing",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Softscape Manager",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Project Lead - CRM",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Sales Manager (Aspirational)",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Sales Manager (Luxury)",
+                "place": "Bangalore"
+            }
+        ]
+
+        const marketingEl = [
+            {
+                "heading": "Graphic Designer",
+                "place": "Bangalore - Hebbal"
+            },
+            {
+                "heading": "Sr. Manager / AGM - Brand Experience & Marketing Activations",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Mgr. / Sr. Mgr. - Brand Marketing",
+                "place": "Bangalore"
+            }
+        ]
+
+        const salesEl = [
+            {
+                "heading": "Commercial Sales Manager",
+                "place": "Bangalore - Hebbal"
+            },
+            {
+                "heading": "Resale Manager",
+                "place": "Bangalore - Hebbal"
+            },
+            {
+                "heading": "Sales Manager (Aspirational)",
+                "place": "Bangalore"
+            },
+            {
+                "heading": "Sales Manager (Luxury)",
+                "place": "Bangalore"
+            }
+        ]
+
+        const humanResourcesEl = [
+            {
+                "heading": "HR Executive",
+                "place": "Bangalore - Millers Rd Office"
+            }
+        ]
+
+        const misEl = [
+            {
+                "heading": "Sr. Executive / Asst. Manager - Billing, MIS and Analytics",
+                "place": "Bangalore"
+            }
+        ]
+
+        const architectureEl = [
+            {
+                "heading": "Softscape Manager",
+                "place": "Bangalore"
+            }
+        ]
+
+        const customerEl = [
+            {
+                "heading": "Project Lead - CRM",
+                "place": "Bangalore"
+            }
+        ]
+
+        const containerEl = document.querySelector('.detailsContainer2-sec5-lifeAt');
+
+        const mainContainerEl = document.querySelector('.container2-sec5-lifeAt');
+
+        const p1El = document.querySelector('.p1-sec5-lifeAt');
+        const p2El = document.querySelector('.p2-sec5-lifeAt');
+        const p3El = document.querySelector('.p3-sec5-lifeAt');
+        const p4El = document.querySelector('.p4-sec5-lifeAt');
+        const p5El = document.querySelector('.p5-sec5-lifeAt');
+        const p6El = document.querySelector('.p6-sec5-lifeAt');
+        const p7El = document.querySelector('.p7-sec5-lifeAt');
+        const p8El = document.querySelector('.p8-sec5-lifeAt');
+        const p9El = document.querySelector('.p9-sec5-lifeAt');
+        const p10El = document.querySelector('.p10-sec5-lifeAt');
+        const p11El = document.querySelector('.p11-sec5-lifeAt');
+
+        window.addEventListener('load', () => {
+            allDepartments();
+        })
+
+        function constants() {
+            p1El.style.fontWeight = '400'
+            p2El.style.fontWeight = '400'
+            p3El.style.fontWeight = '400'
+            p4El.style.fontWeight = '400'
+            p5El.style.fontWeight = '400'
+            p6El.style.fontWeight = '400'
+            p7El.style.fontWeight = '400'
+            p8El.style.fontWeight = '400'
+            p9El.style.fontWeight = '400'
+            p10El.style.fontWeight = '400'
+            p11El.style.fontWeight = '400'
+        }
+
+        function allDepartments() {
+            let content = '';
+            deptEl.forEach(element => {
+                content += `<a href="#">
+                    <div>
+                        <h2>${element.heading}</h2>
+                        <p>${element.place}</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>`
+            });
+
+            containerEl.innerHTML = content;
+            mainContainerEl.style.overflowY = 'scroll';
+            mainContainerEl.style.overflowX = 'hidden';
+            constants();
+            p1El.style.fontWeight = '600'
+        }
+
+        function financeAccounts() {
+            containerEl.innerHTML = `Sorry, we do not have opening for this<br>department at this moment.`;
+            containerEl.style.fontSize = '25px';
+            containerEl.style.fontWeight = '700';
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p2El.style.fontWeight = '600';
+        }
+
+        function legalCompanies() {
+            containerEl.innerHTML = `Sorry, we do not have opening for this<br>department at this moment.`;
+            containerEl.style.fontSize = '25px';
+            containerEl.style.fontWeight = '700';
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p3El.style.fontWeight = '600';
+        }
+
+        function marketing() {
+            let content = '';
+            marketingEl.forEach(element => {
+                content += `<a href="#">
+                    <div>
+                        <h2>${element.heading}</h2>
+                        <p>${element.place}</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>`
+            });
+            containerEl.innerHTML = content;
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p4El.style.fontWeight = '600';
+        }
+
+
+        function sales() {
+
+            let content = '';
+            salesEl.forEach(element => {
+                content += `<a href="#">
+                    <div>
+                        <h2>${element.heading}</h2>
+                        <p>${element.place}</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>`
+            });
+            containerEl.innerHTML = content;
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p5El.style.fontWeight = '600';
+        }
+
+        function humanResources() {
+            let content = '';
+            humanResourcesEl.forEach(element => {
+                content += `<a href="#">
+                    <div>
+                        <h2>${element.heading}</h2>
+                        <p>${element.place}</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>`
+            });
+            containerEl.innerHTML = content;
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p6El.style.fontWeight = '600';
+        }
+
+        function assetManagement() {
+            containerEl.innerHTML = `Sorry, we do not have opening for this<br>department at this moment.`;
+            containerEl.style.fontSize = '25px';
+            containerEl.style.fontWeight = '700';
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p7El.style.fontWeight = '600';
+        }
+
+        function projects() {
+            containerEl.innerHTML = `Sorry, we do not have opening for this<br>department at this moment.`;
+            containerEl.style.fontSize = '25px';
+            containerEl.style.fontWeight = '700';
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p8El.style.fontWeight = '600';
+        }
+
+        function mis() {
+            let content = '';
+            misEl.forEach(element => {
+                content += `<a href="#">
+                    <div>
+                        <h2>${element.heading}</h2>
+                        <p>${element.place}</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>`
+            });
+            containerEl.innerHTML = content;
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p9El.style.fontWeight = '600';
+        }
+
+        function architecture() {
+            let content = '';
+            architectureEl.forEach(element => {
+                content += `<a href="#">
+                    <div>
+                        <h2>${element.heading}</h2>
+                        <p>${element.place}</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>`
+            });
+            containerEl.innerHTML = content;
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p10El.style.fontWeight = '600';
+        }
+
+        function customer() {
+            let content = '';
+            customerEl.forEach(element => {
+                content += `<a href="#">
+                    <div>
+                        <h2>${element.heading}</h2>
+                        <p>${element.place}</p>
+                    </div>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>`
+            });
+            containerEl.innerHTML = content;
+            mainContainerEl.style.overflow = 'hidden';
+            constants();
+            p11El.style.fontWeight = '600';
         }
     </script>
 </body>

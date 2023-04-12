@@ -43,3 +43,62 @@
     font-size: 35px;
 
 }
+
+@media screen and (max-width:1301px) {
+
+    .sectionTwoContainer-lifeAt{
+        padding:0px 100px;
+        margin-bottom: 70px;
+        width: 100%;
+        height: 80vh;
+        position: relative;
+    
+    }
+
+    .sectionTwoContainer-lifeAt > h1{
+        width: 380px;
+        font-size: 25px;
+        top: -11%;
+    
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .sectionTwoContainer-lifeAt{
+        padding:0px 40px;
+        margin-bottom: 40px;
+        width: 100%;
+        height: 60vh;
+        position: relative;
+    
+    }
+
+    .sectionTwoContainer-lifeAt > h1{
+        width: 300px;
+        font-size: 20px;
+        top: -13%;
+        left: 40px;
+    
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .sectionTwoContainer-lifeAt{
+        padding:0px 0px;
+        margin-bottom: 40px;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+    
+    }
+
+    .sectionTwoContainer-lifeAt > h1{
+        width: 280px;
+        font-size: 20px;
+        top: -13%;
+        left: 20px;
+    
+    }
+}

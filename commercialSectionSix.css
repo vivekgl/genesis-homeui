@@ -45,3 +45,80 @@
     font-size: 70px;
     line-height: 75px;
 }
+
+
+@media screen and (max-width:1024px) {
+
+    .sectionSix-MainContainer-commercial{
+        padding-left: 90px;
+        
+    }
+
+    .sec6-details-commercial > div > h3{
+        font-size: 22px;
+    }
+    
+    
+    
+
+    .sec6-details-commercial >  h1{
+        font-size: 50px;
+        line-height: 55px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .sectionSix-MainContainer-commercial{
+        padding-left: 40px;
+        height: 80vh;
+        margin-top: 40px;
+        
+    }
+
+    .sec6-details-commercial > div > h3{
+        font-size: 22px;
+    }
+    
+    
+    
+
+    .sec6-details-commercial >  h1{
+        font-size: 45px;
+        line-height: 55px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        max-width: 300px;
+    }
+
+    .sec6-details-commercial{
+        justify-content: start;
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .sectionSix-MainContainer-commercial{
+        padding-left: 40px;
+        height: 50vh;
+        
+    }
+
+    .sec6-details-commercial > div > h3{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .sec6-details-commercial > div > div{
+        width: 100px;
+    }
+
+    .sec6-details-commercial >  h1{
+        font-size: 35px;
+        line-height: 45px;
+        max-width: 300px;
+    }
+}

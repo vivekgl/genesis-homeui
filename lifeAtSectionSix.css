@@ -20,3 +20,31 @@
     font-size: 22px;
     font-weight: 500;
 }
+
+@media screen and (max-width:1025px) {
+    #div1-sec6-lifeAt{
+        margin-bottom: 20px;
+    }
+
+    .sectionSixContainer-lifeAt > h1{
+        font-size: 32px;
+    }
+    
+    .sectionSixContainer-lifeAt > p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:695px){
+    .sectionSixContainer-lifeAt > h1{
+        font-size: 23px;
+    }
+    
+    .sectionSixContainer-lifeAt > p{
+        font-size: 19px;
+    }
+
+    .secectionSix-lifeAt{
+        padding: 50px 50px;
+    }
+}

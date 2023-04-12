@@ -13,7 +13,7 @@
 
 .tableT2{
     margin-left: 120px;
-    width: 570px;
+    width: 100%;
 }
 
 .tr1, .tr1 > th{
@@ -47,10 +47,6 @@
 
 
 
-
-
-
-
 .sectionSeven-MainContainer-Commercial > div{
     padding-right:  120px ;
     padding-left: 0px;
@@ -62,4 +58,103 @@
 .sectionSeven-MainContainer-Commercial > div > img{
     width: 100%;
     height: 100%;
+}
+
+
+@media screen and (max-width:1370px) {
+    .tr2 > td{
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+    .tableT2{
+        margin-left: 120px;
+        width: 100%;
+    }
+    
+    .tr1, .tr1 > th{
+        font-size: 20px;
+        
+    }
+}
+
+@media screen and (max-width:1155px) {
+
+    .sectionSeven-MainContainer-Commercial > div{
+        padding-right:  60px ;
+        height: 560px;
+        width: 80%;
+    }
+
+    .sectionSeven-MainContainer-Commercial > div > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tableT2{
+        margin-left: 60px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:910px){
+    .sectionSeven-MainContainer-Commercial > div{
+        padding-right:  40px ;
+        height: 450px;
+        width: 80%;
+    }
+
+    .sectionSeven-MainContainer-Commercial > div > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tableT2{
+        margin-left: 40px;
+    }
+
+    .tr1, .tr1 > th{
+        font-size: 17px;
+        
+    }
+
+    .tr2 > td{
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width:780px){
+    .sectionSeven-MainContainer-Commercial{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    .sectionSeven-MainContainer-Commercial > div{
+        padding-right: 0px ;
+        width: 100%;
+    }
+
+    .tableContainer-sec7-commercial{
+        padding-right: 40px;
+    }
+
+    .tableT2{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .tr1, .tr1 > th{
+        font-size: 15px;
+        
+    }
+
+    .tr2 > td{
+        font-size: 13px;
+        padding: 20px 10px;
+    }
 }
