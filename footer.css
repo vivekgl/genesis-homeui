@@ -21,9 +21,17 @@
 
 .logo-container2{
     text-align: center;
+    width: 200px;
+    height: 60px;
+    padding-right: 20px;
 }
 
-.genesys-three{
+.logo-container2 > img{
+    width: 100%;
+    height: 100%;
+}
+
+/* .genesys-three{
     font-family: 'Gajraj One', cursive;
     font-size: 50px;
     line-height: 50px;
@@ -35,7 +43,7 @@
     font-family: 'Gajraj One', cursive;
     line-height: 10px;
     color:cadetblue;
-}
+} */
 
 .address-container{
     max-width: 560px;
@@ -89,6 +97,8 @@
 
 
 @media screen and (max-width:1280px) {
+
+
     .footer-sec1-container{
         display: flex;
         justify-content: space-between;
@@ -125,6 +135,14 @@
 
 
 }
+
+@media screen and (max-width:1170px){
+    .footer-sec1-container{
+        padding-left: 70px;
+    }
+}
+
+
 
 @media screen and (max-width:1024px) {
     .footer-sec1-container{

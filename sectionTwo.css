@@ -301,13 +301,13 @@ display: none;
 
     .sectionTwo-container{
         padding-left: 30px;
-        padding-right: 20px;
+        padding-right: 0px;
     }
 
 
     /*  */
     .img-sec2{
-        width:50% ;
+        width:45% ;
         height: 500px;
     }
     

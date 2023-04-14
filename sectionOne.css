@@ -208,6 +208,18 @@ html{
     }
 }
 
+@media screen and (max-width:670px){
+    .onVideo-p1{
+        width: 490px;
+    }
+}
+
+@media screen and (max-width:565px){
+    .onVideo-p1{
+        width: 430px;
+    }
+}
+
 @media screen and (max-width:541px) {
     .onVideo-p1{
         top: 33%;
@@ -246,7 +258,11 @@ html{
 
 
 
-
+@media screen and (max-width:470px){
+    .onVideo-p1{
+        width: 340px;
+    }
+}
 
 
 
