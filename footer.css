@@ -31,7 +31,7 @@
     height: 100%;
 }
 
-/* .genesys-three{
+.genesys-three{
     font-family: 'Gajraj One', cursive;
     font-size: 50px;
     line-height: 50px;
@@ -43,7 +43,7 @@
     font-family: 'Gajraj One', cursive;
     line-height: 10px;
     color:cadetblue;
-} */
+}
 
 .address-container{
     max-width: 560px;
